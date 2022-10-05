@@ -49,8 +49,8 @@ h3{font-size:1.67em;}
 h4{font-size:1.33em;}
 p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
-ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
-ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
+ul{margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
+ul li{margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
 b,strong{font-weight:bold;}
 sup{
@@ -78,17 +78,18 @@ th,td{
 
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif;}
-.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
+.top-left {color: #505050; background: #fafafa; text-align: center; width: 1024px; height: 80px; position: absolute; padding: 36px 0 0 0; top: 0px;}
 .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
 /* Conference Title Logo */
-.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
-.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
-.year{color: #505050; font-size:0.67em; font-weight: lighter;}
+.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0; font-size:5.33em;} 
+.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0; font-size:5.33em;}
+.subtitle{color: #505050; text-shadow: 1px 1px 3px #c0c0c0; font-size:2em;}
+.year{color: #505050; font-size:0.67em; font-weight: lighter; font-size:5.33em;}
 
 /* Navigation Links (Home, Registration, etc) */
-table.navigation{width:800px;}
-td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+table.navigation{width:1024px;}
+td.navigation{font-size:1em; white-space:nowrap; width:10%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 
 /* Sponsor Images */
 table.sponsors{width:800px;}
@@ -127,3 +128,26 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     table.footer{font-size:0.33em;}
 }
 
+.organizer{
+	width: 20%;
+	display:inline-block;
+	padding:0px 20px 0px 20px;
+}
+
+.photoOrg{
+	height: 200px;
+	width: 100%; 
+	object-fit: contain;
+}
+
+.submit {
+  background-color: #404040;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:0px 20px 0px 70px;
+}
