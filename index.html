@@ -4,74 +4,383 @@
 <head>
     <base href=".">
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
-    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
-    <meta name="description" content="Conference Template">
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/main.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="assets/css/bootstrap.table.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="assets/css/templatemo-style.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="assets/css/animate.min.css"/>
+    <meta name="description" content="ASTRIDE2023@ICDE2023">
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
-    <title>Conference Template</title>
+    <title>ASTRIDE@ICDE2023</title>
 </head>
 
 <body>
 
     <div class="banner">
-        <img src="assets/banner.jpg" alt="Conference Template Banner">
+        <img src="assets/images/banner.jpg" alt="Conference Template Banner">
         <div class="top-left">
-            <span class="title1">ASTRIDE</span><span class="title2">Workshop</span> <span class="year">2023</span>
+            <span class="title1">ASTRIDE</span><span class="title2">@ICDE</span> <span class="year">2023</span></br>
+			<span class="subtitle">Private, Secure, and Trustworthy IoT Data Management Workshop</span>
         </div>
         <div class="bottom-right">
-            April 3, 2023 <br> Annaheim California
+            April 3, 2023 <br> Annaheim, California
         </div>
     </div>
 
     <table class="navigation">
         <tr>
             <td class="navigation">
-                <a class="current" title="Conference Home Page" href=".">Home</a>
+                <a class="current" title="Workshop Home Page" href=".">Home</a>
             </td>
             <td class="navigation">
-                <a title="Register for the Conference" href="registration">Registration</a>
+                <a title="Aims and Scope" href="#aims">AIM & SCOPE</a>
             </td>
             <td class="navigation">
-                <a title="Conference Program" href="program">Program</a> 
+                <a title="Call For Papers" href="#cfp">CALL FOR PAPERS</a> 
             </td>
             <td class="navigation">
-                <a title="Directions to the Conference" href="directions">Directions</a>
+                <a title="Dates" href="#dates">DATES</a>
+            </td>
+			<td class="navigation">
+                <a title="Organization" href="#organization">ORGANIZATION</a>
             </td>
             <td class="navigation">
-                <a title="Conference Flyer" href="flyer">Flyer</a>
+                <a title="Program" href="#program">PROGRAM</a>
+            </td>
+			<td class="navigation">
+                <a title="Keynote" href="#keynote">KEYNOTE</a>
+            </td>
+			<td class="navigation">
+                <a title="Venue" href="https://icde2023.ics.uci.edu/" target="_blank">VENUE</a>
             </td>
         </tr>
     </table>
+	
+	<section id="aims">
+		<div class="container">
+			<div class="row">
+				<h2>AIMS & SCOPE</h2>
+				<p>
+					The global Internet of Things (IoT) market size is projected to reach 2.5 trillion US Dollars by 2029 with billions of smart devices connected to the Internet by then. The emerging IoT revolution promises to impact almost every aspect of modern society. In an IoT setting, sensors help create a fine-grained digital representation of the evolving physical world, which can be used to implement new functionalities and/or bring transformative improvements to existing systems. One commonality to all these new technologies and scenarios is their reliance on the indiscriminate collection of data. Such data contains information based on which user behavior can be revealed, and hence, jeopardizing their privacy. Furthermore, the issue of user privacy is concerning because IoT devices and systems have been shown to be plagued with security vulnerabilities, which could grant access to sensitive data to malicious entities.
+				</p>
+				<p>
+					The existing behavior of IoT devices and systems  contradicts the increasing expectations of privacy with more awareness and new legislation to protect individuals' privacy emerging worldwide (such as Europe’s GPDR, California’s CCPA, Brazil’s LGPD, and India’s PDPB). The fine-grained monitoring enabled by IoT also raises significant concerns about the data collector being able to infer properties such as religious beliefs, gender, and personal habits of individuals (e.g., smoker/non-smoker), among others, which individuals may not be comfortable sharing. Central to IoT applications is the data management technology that can represent, store, transform, and query sensor data. Given the importance of IoT, the data management community has been focusing on the special requirements of IoT systems due to the volume and high speeds of IoT data).  On the other hand, the privacy and security community has studied potential attacks and vulnerabilities in IoT applications and systems and explored their corresponding detection and defense strategies.  
 
-    <h2>What is This Website?</h2>
-    <p>
-        This website is a template that you could use for a (small) academic conference. 
-        It&rsquo;s got a page for registration, where you can embed a Google Form or some other way for participants to register.
-        It&rsquo;s got a program page to list the schedule for the conference.
-        It&rsquo;s got a directions page to add a bunch of instructions how to get to the conference.
-        It&rsquo;s got a page to put up the flyers and other promotional materials for folks to download.
-    </p>
-    <p>
-        You can use this template by cloning all the files from this
-        <a target="_blank" href="https://github.com/mikepierce/conference-website-template">GitHub repo here</a>.
-        This template was created from a website I made for 
-        <a target="_blank" href="http://math.ucr.edu/~mathconn/">MathConnections 2019</a>,
-        in case you want to see an example of this template being used in the wild.
-    </p>
-    <p>
-        This paragraph is just some filler text to give the homepage some volume:
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-    </p>
+				</p>
+				<p>
+					The success and adoption of IoT data management systems depend on integrating privacy, security, and trust protections into them to guard against privacy and security risks posed by sensor-based continuous monitoring of individuals and their activities. The goal of this workshop is thus to help bridging the gap between two research communities ---- Security and Privacy Researchers with IoT Data management Researchers --- both from industry and academia. Additionally, the workshop would be an opportunity to involve privacy legislators and developers of modern smart systems.
+				</p>
+			</div>
+		</div>
+	</section>
+	
+	<section id="cfp">
+		<div class="container">
+			<div class="row">
 
-    <h2>Organizers</h2>
-    <p>
-        Here&rsquo;s a good place to list the organizers and sponsors of the conference,
-        as well as list contact information for the organizers,
-        and show off the logos of the sponsors.
-        It looks like his conference was sponsored by kittens!
-    </p>
-    <table class="sponsors">
+				<h2>CALL FOR PAPERS</h2>
+				<span>Download the CFP</span>
+				<h3>TOPICS OF INTEREST</h3>
+				<p>
+					Topics of interest include, but are not limited to:
+				</p>
+				
+				<ul>
+				  <li>Secure hardware for IoT data management</li>
+				  <li>Model-based security systems engineering</li>
+				  <li>Understanding dependencies among security, reliability, and safety in CPS/IoT </li>
+				  <li>High assurance security architectures</li>
+				  <li>Intrusion and anomaly detection</li>
+				  <li>Secure and privacy-preserving sensor data outsourcing</li>
+				  <li>Privacy-by-design of IoT data management systems</li>
+				  <li>Differentially private computing</li>
+				  <li>Privacy-preserving machine learning and federated learning and analytics</li>
+				  <li>Privacy regulations (GDPR, CCPA, CalOPPA) and their impact on IoT systems</li>
+				  <li>Privacy-Preserving Data Analysis in IoT Systems</li>
+				  <li>Inference control and access control policies</li>
+				  <li>Authentication</li>
+				  <li>Blockchain-based systems</li>
+				  <li>Identity and access management</li>
+				  <li>Security, privacy, and utility metrics</li>
+				  <li>Application/use-cases in healthcare, environment, transportation, energy, etc.</li>
+				</ul>
+				
+				<h3>SUBMISSION GUIDELINES</h3>
+				<p>
+				Authors are invited to submit original research contributions in English of up to 6 pages (without including references) in the IEEE camera-ready format (templates are available at the <a href="https://icde2023.ics.uci.edu/research-papers-track/" target="_blank">ICDE 2023 submission guidelines page</a>) to the submission site https://cmt3.research.microsoft.com/ASTRIDE2023. Authors of accepted papers will be encouraged to submit an extended paper of up to 8 pages for final publication. Author are also invited to submit short papers up to 4 pages. The page limit includes any appendix and additional material. All accepted papers will appear in the formal Proceedings of the Conference Workshops published by IEEE CS Press, and will be included in the IEEE digital library.
+				</p>
+				<!-- <button class="submit" onclick="window.open('http://www.example.com','_blank');" type="button">Submit</button> -->
+				
+				<h4 id="dates">Paper Submission Deadlines</h4>
+				<span> Paper submission deadline - Dec 12, 2022 </span>
+				
+				<h4>Notification</h4>
+				<span> Notification deadline - Jan 17, 2023 </span>
+
+				<h4>Camera Ready</h4>
+				<span> Camera ready deadline - Feb 10, 2023 </span>
+
+
+			</div>
+		</div>
+	</section>
+	
+	<section id="organization">
+		<div class="container">
+			<div class="row">
+				<h2>ORGANIZATION</h2>
+				
+				<div class="organizer">
+                    <img src="https://cs.uwaterloo.ca/~xihe/xi.jpg" class="photoOrg" alt="team">
+                    <a href="https://cs.uwaterloo.ca/~xihe/" target="_blank"><h4>Xi He</h4></a>
+                    <h5>Assistant Professor, University of Waterloo</br>.</h5>
+					<a href="https://cs.uwaterloo.ca/~xihe/" class="fa fa-link" target="_blank"></a> 
+                </div>
+				
+				<div class="organizer">
+                    <img src="https://primalpappachan.com/author/primal-pappachan/avatar_hudeecbc7644a57228115c3403905fba2a_405474_270x270_fill_q75_lanczos_center.jpg" class="photoOrg" alt="team">
+                    <a href="https://primalpappachan.com/" target="_blank"><h4>Primal Pappachan</h4></a>
+                    <h5>Postdoctoral Scholar, Pennsylvania State University</h5>
+					<a href="https://primalpappachan.com/" class="fa fa-link" target="_blank"></a>
+                </div>
+				
+				<div class="organizer">
+                    <img src="https://njbda.org/wp-content/uploads/2022/04/Shantanu_sharma_journal.jpg" class="photoOrg" alt="team">
+                    <a href="https://web.njit.edu/~ss797/" target="_blank"><h4>Shantanu Sharma</h4></a>
+                    <h5>Assistant Professor, New Jersey Institute of Technology</h5>
+					<a href="https://web.njit.edu/~ss797/" class="fa fa-link" target="_blank"></a>
+                </div>
+				
+				<div class="organizer">
+                    <img src="https://robertoyus.com/authors/admin/avatar_hud9f680d9fd0901e8096a1696fa9f0d54_346067_250x250_fill_lanczos_center_2.png" class="photoOrg" alt="team">
+                    <a href="https://robertoyus.com/" target="_blank"><h4>Roberto Yus</h4></a>
+                    <h5>Assistant Professor, University of Maryland, Baltimore County</h5>
+					<a href="https://robertoyus.com/" class="fa fa-link" target="_blank"></a>
+                </div>
+				
+				
+				<h3>PROGRAM COMITTEE (being updated)</h3>
+				<table>
+				  <tr>
+					<td>Pietro Colombo</td>
+					<td>University of Insubria, Italy</td>
+				  </tr>
+				  <tr>
+					<td>Yang Cao</td>
+					<td>Hokkaido University, Japan</td>
+				  </tr> 
+				 <tr>
+					<td>Sarvesh Panday</td>
+					<td>Banaras Hindu University, India</td>
+				  </tr> 
+				<tr>
+					<td>Chang Ge</td>
+					<td>University of Minnesota, USA</td>
+				  </tr> 
+				<tr>
+					<td>Chenxi Qiu</td>
+					<td>University of North Texas, USA</td>
+				  </tr> 
+				<tr>
+					<td>Elena Ferrari</td>
+					<td>University of Insubria, Italy</td>
+				  </tr> 
+				<tr>
+					<td>Johes Bater</td>
+					<td>Tufts University, USA</td>
+				  </tr> 
+				 <tr>
+					<td>Amit Kumar Sikder</td>
+					<td>Georgia Institute of Technology, USA</td>
+				  </tr> 
+				  <tr>
+					<td>Suyash Gupta</td>
+					<td>UC Berkeley, USA</td>
+				  </tr> 
+				  <tr>
+					<td>Jelle Hellings</td>
+					<td>McMaster University, Canada</td>
+				  </tr> 
+				  <tr>
+					<td>Reza Tourani</td>
+					<td>Saint Louis University, USA</td>
+				  </tr> 
+				  <tr>
+					<td>Himanshu Gupta</td>
+					<td>IBM, India</td>
+				  </tr>
+				  <tr>
+					<td>Philip Derbeko</td>
+					<td>Dell EMC, Israel</td>
+				  </tr>
+				  <tr>
+					<td>Amrita Roy Chowdhury</td>
+					<td>UC San Diego, USA</td>
+				  </tr>	
+				  <tr>
+					<td>Anna Squiccarini</td>
+					<td>Penn State University, USA</td>
+				  </tr>	
+				   <tr>
+					<td>Ioannis Koutis</td>
+					<td>New Jersey Insitute of Technology, USA</td>
+				  </tr>	
+				  <tr>
+					<td>Uday Kiran Rage</td>
+					<td>University of Aizu, Japan</td>
+				  </tr>	
+					
+					
+					
+				</table>
+			</div>
+		</div>
+	</section>
+
+	<!-- <section id="program">
+		<div class="container">
+			<div class="row">
+				<h2>PROGRAM</h2>
+	
+				<table class="table-striped table-responsive table-bordered text-center">
+					<tbody>
+						<tr class="bg-danger">
+							<td colspan="7">
+								<span class="myred fa fa-clock-o"></span> Times are displayed in PST. Look up your local times: <a href="https://time.is/" target="_blank">https://time.is/</a>.
+							</td>
+						</tr>
+						<tr>
+							<td width="120px">Time (California PST)</td>
+							<td>Session Chairs</td>
+							<td></td>
+							<td width="160px"></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>9:00-9:30 am</td>
+							<td>Xi, Primal, <br>Shantanu, Roberto</td>
+							<td></td>
+							<td colspan="3">
+								<p class="myblue"><span class="myred fa fa-envelope-open-o"></span> Opening and Introductions</p> <span class="myred">General Chairs:</span> Xi He, Primal Pappachan, Shantanu Sharma, &amp; Roberto Yus </span>
+							</td>
+						</tr>
+						<tr>
+							<td>9:30-10:30am</td>
+							<td>Org 1</td>
+							<td></td>
+							<td colspan="3">
+								<p class="myblue"><span class="myred fa fa-bullhorn"></span> Keynote Title 1</p> <span class="myred">Keynote Speaker1 (Org)</span> 
+							</td>
+						</tr>
+						<tr>
+							<td>10:30-11:00am</td>
+							<td colspan="5"><p><span class=" myred fa fa-coffee"></span> Coffee Break</p></td>
+						</tr>
+						<tr>
+							<td rowspan="3">11:00am-12:30pm</td>
+							<td rowspan="3">Org2</td>
+							<td rowspan="3"></td>
+							<td>Research Talk 1</td>
+							<td class="myblue">Title RT1</td>
+							<td>Authors</td>
+						</tr>
+						<tr>
+							<td>Research Talk 2</td>
+							<td class="myblue">Title RT1</td>
+							<td>Authors</td>
+						</tr>
+						<tr>
+							<td>Research Talk 3</td>
+							<td class="myblue">Title RT1</td>
+							<td>Authors</td>
+						</tr>
+						<tr>
+							<td>12:30-1:30pm</td>
+							<td colspan="5"><p><span class=" myred fa fa-cutlery"></span> Lunch Break</p></td>
+						</tr>
+						<tr>
+							<td>1:30-2:30pm</td>
+							<td>Org 3</td>
+							<td></td>
+							<td colspan="3">
+								<p class="myblue"><span class="myred fa fa-bullhorn"></span> Keynote Title 2</p> <span class="myred">Keynote Speaker2 (Org)</span> 
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="3">2:30-4:00pm</td>
+							<td rowspan="3">Org4</td>
+							<td rowspan="3"></td>
+							<td>Research Talk 4</td>
+							<td class="myblue">Title RT4</td>
+							<td>Authors</td>
+						</tr>
+						<tr>
+							<td>Research Talk 5</td>
+							<td class="myblue">Title RT5</td>
+							<td>Authors</td>
+						</tr>
+						<tr>
+							<td>Research Talk 6</td>
+							<td class="myblue">Title RT6</td>
+							<td>Authors</td>
+						</tr>
+						<tr>
+							<td>4-4:30pm</td>
+							<td colspan="5"><p><span class=" myred fa fa-coffee"></span> Coffee Break</p></td>
+						</tr>
+						<tr>
+							<td>4:30-5:30pm</td>
+							<td>Xi, Primal, <br>Shantanu, Roberto</td>
+							<td></td>
+							<td colspan="3">
+								<p class="myblue"><span class="myred fa fa-envelope-open-o"></span> Panel, Closing, and Awards</p> <span class="myred">General Chairs:</span> Xi He, Primal Pappachan, Shantanu Sharma, &amp; Roberto Yus </span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section> -->
+	
+	
+	<!-- <section id="keynote">
+		<div class="container">
+			<div class="row">
+				<h2>KEYNOTE & INVITED TALKS</h2>
+				
+				<h3>Title Keynote1</h3>
+				<h3>Speaker</h3>
+				
+				<h4>Abstract</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Cras semper auctor neque vitae tempus quam pellentesque nec. Id volutpat lacus laoreet non. Amet consectetur adipiscing elit duis tristique sollicitudin. Volutpat maecenas volutpat blandit aliquam etiam erat. Massa tempor nec feugiat nisl pretium fusce. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Semper quis lectus nulla at volutpat diam. Arcu cursus euismod quis viverra nibh cras pulvinar. Leo vel fringilla est ullamcorper. Viverra nibh cras pulvinar mattis nunc. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus.</p>
+				
+				<h4>About the Speaker</h4>
+				<img src="assets/images/portrait.png" alt="Name Lastname" height="200" style="padding-right: 15px; float: left;">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Cras semper auctor neque vitae tempus quam pellentesque nec. Id volutpat lacus laoreet non. Amet consectetur adipiscing elit duis tristique sollicitudin. Volutpat maecenas volutpat blandit aliquam etiam erat. Massa tempor nec feugiat nisl pretium fusce. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Semper quis lectus nulla at volutpat diam. Arcu cursus euismod quis viverra nibh cras pulvinar. Leo vel fringilla est ullamcorper. Viverra nibh cras pulvinar mattis nunc. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus.</p>
+				
+				</br>
+				<hr>
+				</br>
+				
+				<h3>Title Keynote2</h3>
+				<h3>Speaker</h3>
+				
+				<h4>Abstract</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Cras semper auctor neque vitae tempus quam pellentesque nec. Id volutpat lacus laoreet non. Amet consectetur adipiscing elit duis tristique sollicitudin. Volutpat maecenas volutpat blandit aliquam etiam erat. Massa tempor nec feugiat nisl pretium fusce. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Semper quis lectus nulla at volutpat diam. Arcu cursus euismod quis viverra nibh cras pulvinar. Leo vel fringilla est ullamcorper. Viverra nibh cras pulvinar mattis nunc. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus.</p>
+				
+				<h4>About the Speaker</h4>
+				<img src="assets/images/portrait.png" alt="Name Lastname" height="200" style="padding-right: 15px; float: left;">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Cras semper auctor neque vitae tempus quam pellentesque nec. Id volutpat lacus laoreet non. Amet consectetur adipiscing elit duis tristique sollicitudin. Volutpat maecenas volutpat blandit aliquam etiam erat. Massa tempor nec feugiat nisl pretium fusce. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Semper quis lectus nulla at volutpat diam. Arcu cursus euismod quis viverra nibh cras pulvinar. Leo vel fringilla est ullamcorper. Viverra nibh cras pulvinar mattis nunc. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus.</p>
+				
+			</div>
+		</div>
+	</section> -->
+
+	
+    <!--table class="sponsors">
         <tr>
             <td class="sponsor">
                 <a href="http://www.eyebleach.me/">
@@ -89,11 +398,11 @@
                 </a>
             </td>
         </tr>
-    </table>
+    </table-->
 
     <footer>
-        &copy; Conference Organizers
-        &nbsp;|&nbsp; Design by <a href="https://github.com/mikepierce">Mike Pierce</a>
+        &copy; Workshop Organizers
+        &nbsp;|&nbsp; Based on the design by <a href="https://github.com/mikepierce">Mike Pierce</a>
     </footer>
 
 </body>
