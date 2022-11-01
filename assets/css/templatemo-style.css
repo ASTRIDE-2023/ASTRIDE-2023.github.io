@@ -436,7 +436,7 @@ h1 {
 #cfp {
     min-height: 300px;
     padding: 80px 0 80px 0;
-    background: #404040;
+    background: #477bc7;
     color: #FFFFFF;
 }
 
@@ -476,6 +476,51 @@ h1 {
 }
 
 /* end cfp */
+
+/*start competition */
+#competition {
+    min-height: 300px;
+    padding: 80px 0 80px 0;
+    background: #477bc7;
+    color: #FFFFFF;
+}
+
+#competition h2,
+#competition h3
+#competition h4 {
+    font-weight: bold;
+}
+
+#competition .col-md-7 h3 {
+    padding: 12px 0 0 0;
+}
+
+#competition .col-md-7 h2 {
+    color: #E1BB60;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 32px 0;
+}
+
+#competition .col-md-5 .col-md-6 {
+    padding: 4px;
+}
+
+#competition .col-md-5 h3 {
+    padding: 10px 0 10px 0;
+}
+
+#competition .col-md-5 img {
+    width: 200px;
+    height: 100px;
+}
+
+#competition p
+{
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* end competition */
 
 /*start keynote */
 #keynote {
