@@ -28,7 +28,7 @@ body {
 }
 
 .myblue {
-    color: #00377c;
+    color: #477bc7;
 }
 
 .myblue-title {
@@ -59,7 +59,7 @@ body {
 }
 
 .myorange {
-    color: #f7941d;
+    color: #ffb703;
 }
 
 .mywhite {
@@ -481,8 +481,8 @@ h1 {
 #competition {
     min-height: 300px;
     padding: 80px 0 80px 0;
-    background: #477bc7;
-    color: #FFFFFF;
+    background: #f7941d;
+    color: #000000;
 }
 
 #competition h2,

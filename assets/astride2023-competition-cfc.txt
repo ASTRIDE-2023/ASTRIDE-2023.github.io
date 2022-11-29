@@ -1,0 +1,44 @@
+1st Private, Secure, and Trustworthy IoT Data Management Workshop (ASTRIDE 2023) 
+Co-Located with IEEE International Conference on Data Engineering (ICDE 2023)
+Anaheim, CA, USA. April 3 2023
+https://astride-2023.github.io/ 
+
+Important dates
+Paper submission deadline - Dec 12, 2022 				 		
+Notification deadline - Jan 17, 2023 		
+Camera ready deadline - Feb 10, 2023
+
+CALL FOR PAPERS
+The global Internet of Things (IoT) market size is projected to reach 2.5 trillion US Dollars by 2029 with billions of smart devices connected to the Internet by then. The emerging Internet of Things (IoT) revolution promises to impact almost every aspect of modern society. However, the existing behavior of IoT devices and systems contradicts the increasing expectations of privacy with more awareness and new legislation to protect individuals' privacy emerging worldwide (such as Europe’s GDPR, California’s CCPA, Brazil’s LGPD, and India’s PDPB). The need for privacy-aware Internet of Things (IoT) systems has been widely accepted.
+Central to IoT applications is the data management technology that can represent, store, transform, and query sensor data. Given the importance of IoT, the data management community has been focusing on the special requirements of IoT systems due to the volume and high speeds of IoT data). On the other hand, the privacy and security community has studied potential attacks and vulnerabilities in IoT applications and systems and explored their corresponding detection and defense strategies. 				
+The ASTRIDE Workshop, held in conjunction with the IEEE ICDE conference, seeks contributions to solving challenges in private, secure, and trustworthy IoT data management. 
+Topics of interest include, but are not limited to:
+·       Secure hardware for IoT data management
+·       Model-based security systems engineering
+·       Understanding dependencies among security, reliability,and safety in CPS/IoT
+·       High-assurance security architectures
+·       Intrusion and anomaly detection
+·       Secure and privacy-preserving sensor data outsourcing
+·       Privacy-by-design of IoT data management systems
+·       Differentially private computing
+·       Privacy-preserving machine learning and federated learning and analytics
+·       Privacy regulations (GDPR, CCPA, CalOPPA) and their impact on IoT systems
+·       Privacy-Preserving Data Analysis in IoT Systems
+·       Inference control and access control policies
+·       Authentication
+·       Blockchain-based systems
+·       Identity and access management
+·       Security, privacy, and utility metrics
+·       Application/use-cases in healthcare, environment, transportation, energy, etc
+
+We encourage researchers from industry and academia to submit original works. Submitted papers must represent original material that is not currently under review in any other conference or journal, and has not been previously published.
+All paper submissions should be a maximum length of six (6) printed pages in IEEE format without references. Two (2) additional pages will be allowed in the camera ready submission to incorporate comments from the reviewers. Accepted papers will be selected for oral presentation based on peer review. Submissions are not double-blind; the submitted paper should include author names and affiliations.
+For more details, see the workshop website: https://astride-2023.github.io/. 
+
+Organization
+
+Xi He (University of Waterloo)
+Primal Pappachan (Penn State University)
+Shantanu Sharma (New Jersey Institute of Technology)
+Roberto Yus (University of Maryland, Baltimore County)
+
