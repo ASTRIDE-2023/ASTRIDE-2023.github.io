@@ -1,44 +1,34 @@
+UNDERGRAD/K-12 RESEARCH COMPETITION AT ASTRIDE2023/ICDE2023
+
 1st Private, Secure, and Trustworthy IoT Data Management Workshop (ASTRIDE 2023) 
 Co-Located with IEEE International Conference on Data Engineering (ICDE 2023)
-Anaheim, CA, USA. April 3 2023
+Anaheim, CA, USA. April 3-7 2023
 https://astride-2023.github.io/ 
 
 Important dates
-Paper submission deadline - Dec 12, 2022 				 		
-Notification deadline - Jan 17, 2023 		
-Camera ready deadline - Feb 10, 2023
+Submission deadline - January 25, 2023 (11:59PM PST)				 		
+Notification deadline - February 8, 2023
 
-CALL FOR PAPERS
-The global Internet of Things (IoT) market size is projected to reach 2.5 trillion US Dollars by 2029 with billions of smart devices connected to the Internet by then. The emerging Internet of Things (IoT) revolution promises to impact almost every aspect of modern society. However, the existing behavior of IoT devices and systems contradicts the increasing expectations of privacy with more awareness and new legislation to protect individuals' privacy emerging worldwide (such as Europe’s GDPR, California’s CCPA, Brazil’s LGPD, and India’s PDPB). The need for privacy-aware Internet of Things (IoT) systems has been widely accepted.
-Central to IoT applications is the data management technology that can represent, store, transform, and query sensor data. Given the importance of IoT, the data management community has been focusing on the special requirements of IoT systems due to the volume and high speeds of IoT data). On the other hand, the privacy and security community has studied potential attacks and vulnerabilities in IoT applications and systems and explored their corresponding detection and defense strategies. 				
-The ASTRIDE Workshop, held in conjunction with the IEEE ICDE conference, seeks contributions to solving challenges in private, secure, and trustworthy IoT data management. 
-Topics of interest include, but are not limited to:
-·       Secure hardware for IoT data management
-·       Model-based security systems engineering
-·       Understanding dependencies among security, reliability,and safety in CPS/IoT
-·       High-assurance security architectures
-·       Intrusion and anomaly detection
-·       Secure and privacy-preserving sensor data outsourcing
-·       Privacy-by-design of IoT data management systems
-·       Differentially private computing
-·       Privacy-preserving machine learning and federated learning and analytics
-·       Privacy regulations (GDPR, CCPA, CalOPPA) and their impact on IoT systems
-·       Privacy-Preserving Data Analysis in IoT Systems
-·       Inference control and access control policies
-·       Authentication
-·       Blockchain-based systems
-·       Identity and access management
-·       Security, privacy, and utility metrics
-·       Application/use-cases in healthcare, environment, transportation, energy, etc
+The emerging Internet of Things (IoT) revolution promises to impact almost every aspect of modern society. However, the existing behavior of IoT devices and systems brings in challenges of privacy with more awareness and new legislation to protect individuals' privacy emerging worldwide. The ASTRIDE 2023 Workshop, held in conjunction with ICDE 2023, seeks to help bridge the gap between two research communities ---- Security and Privacy Researchers, IoT Data management Researchers. 
 
-We encourage researchers from industry and academia to submit original works. Submitted papers must represent original material that is not currently under review in any other conference or journal, and has not been previously published.
-All paper submissions should be a maximum length of six (6) printed pages in IEEE format without references. Two (2) additional pages will be allowed in the camera ready submission to incorporate comments from the reviewers. Accepted papers will be selected for oral presentation based on peer review. Submissions are not double-blind; the submitted paper should include author names and affiliations.
+The ASTRIDE workshop is hosting a research competition for Undergrad/K-12 students with prizes to the best contributions. The Undergrad/K-12 Research Competition is a forum for undergraduate and K-12 students to showcase their research, exchange ideas, and receive feedback from senior researchers in the field. The Undergrad/K-12 Research Competition has the following goals for junior scholars:
+
+·       Share their research ideas and prototypes at the ASTRIDE/ICDE forum to gain visibility to their work.
+·       Meet and interact with attendees at both ASTRIDE and ICDE, share ideas and gain insights about what research in the data management / privacy/security / IoT communities.
+·       Receive  feedback  from senior members of industry and academia about their research and presentation.
+·       Be recognized and rewarded for outstanding undergrad/K-12 student research.
+
+Eligibility and Guidelines:
+
+·       While a group of researchers (including students and faculty) can work together on a project submitted to the competition, the leading author of each research contribution must be a student (undergraduate or K-12).
+·       The competition has two categories, one for undergraduate lead research and another for K-12 lead research. Research completed while the student was an undergraduate/K-12 may be submitted to the undergraduate/K-12 category even if the student is now a first-year graduate/undergraduate student.
+·       Three winners will be selected in each category - undergraduate and K-12. The top three winners in each category will receive prizes of US $500, $300, and $200, respectively. Winners will be recognized during the closing session of the ASTRIDE workshop.
+
 For more details, see the workshop website: https://astride-2023.github.io/. 
 
 Organization
 
-Xi He (University of Waterloo)
-Primal Pappachan (Penn State University)
-Shantanu Sharma (New Jersey Institute of Technology)
-Roberto Yus (University of Maryland, Baltimore County)
-
+·       Xi He (University of Waterloo)
+·       Primal Pappachan (Penn State University)
+·       Shantanu Sharma (New Jersey Institute of Technology)
+·       Roberto Yus (University of Maryland, Baltimore County)
