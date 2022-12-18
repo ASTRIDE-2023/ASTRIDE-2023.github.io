@@ -4,9 +4,9 @@ Anaheim, CA, USA. April 3 2023
 https://astride-2023.github.io/ 
 
 Important dates
-Paper submission deadline - Dec 12, 2022 				 		
-Notification deadline - Jan 17, 2023 		
-Camera ready deadline - Feb 10, 2023
+Paper submission deadline - January 12, 2023 (11:59PM PST) 				 		
+Notification deadline - February 1, 2023		
+Camera ready deadline - February 15, 2023
 
 CALL FOR PAPERS
 The global Internet of Things (IoT) market size is projected to reach 2.5 trillion US Dollars by 2029 with billions of smart devices connected to the Internet by then. The emerging Internet of Things (IoT) revolution promises to impact almost every aspect of modern society. However, the existing behavior of IoT devices and systems contradicts the increasing expectations of privacy with more awareness and new legislation to protect individuals' privacy emerging worldwide (such as Europe’s GDPR, California’s CCPA, Brazil’s LGPD, and India’s PDPB). The need for privacy-aware Internet of Things (IoT) systems has been widely accepted.
