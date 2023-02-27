@@ -15,46 +15,55 @@
     <meta property="og:image" content="assets/images/banner.png"/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--link rel="stylesheet" href="assets/css/bootstrapNew.min.css"-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/templatemo-style.css">
 	<link rel="stylesheet" href="assets/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	
     <title>ASTRIDE@ICDE2023</title>
 </head>
 
 <body>
-	
-<!-- start navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="row">
-            <img src="assets/images/banner.png" class="img-responsive">
+
+<!-- start navbar -->
+<div>
+	<div class="row">
+		<img src="assets/images/banner.png" class="img-fluid">
+	</div>
+	<nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+				<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+					<div class="navbar-nav">
+						<a href="#aims" class="nav-item nav-link myblue" style="font-weight: bold;">Aim &AMP; Scope</a>
+						<a href="#organization" class="nav-item nav-link myblue" style="font-weight: bold;">Organization</a>
+						<div class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle myblue" data-bs-toggle="dropdown" style="font-weight: bold;">Program</a>
+							<div class="dropdown-menu">
+								<a href="#acceptedPapers" class="dropdown-item myblue" style="font-weight: bold;">Accepted Papers</a>
+								<a href="#programNew" class="dropdown-item myblue" style="font-weight: bold;">Preliminary Program</a>
+							</div>
+						</div>
+						<div class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle myblue" data-bs-toggle="dropdown" style="font-weight: bold;">Call For Contributions</a>
+							<div class="dropdown-menu">
+								<a href="#cfp" class="dropdown-item myblue" style="font-weight: bold;">Call For Papers</a>
+								<a href="#competition" class="dropdown-item myblue" style="font-weight: bold;">UGrad/K-12 Competition</a>
+							</div>
+						</div>
+						<a href="https://icde2023.ics.uci.edu/" target="_blank" class="nav-item nav-link myblue" style="font-weight: bold;">Venue</a>
+					</div>
+				</div>
         </div>
-        <div class="row">
-            <div class="navbar-header">
-                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-center">
-                    <li><a href="#aims">AIM &AMP; SCOPE</a></li>
-                    <li><a href="#cfp" class="">CALL FOR PAPERS</a></li>
-                    <li><a href="#dates" class="">DATES</a></li>
-                    <li><a href="#organization" class="">ORGANIZATION</a></li>
-					<li><a href="#competition" class="">UGRAD/K-12 COMPETITION</a></li>
-                    <li><a href="#program" class="" style="display: none">PROGRAM</a></li>
-                    <li><a href="#keynote" class="" style="display: none">KEYNOTE</a></li>
-                    <li><a href="https://icde2023.ics.uci.edu/" class="smoothScroll" target="_blank">VENUE</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</nav>
+	</nav>
+</div>
+<!-- end navbar -->
 
 
 <!-- start home -->
@@ -78,8 +87,8 @@
             <div class="slider-caption row">
                 <div class="row col-lg-12">
 
-                    <div class="lightbox templatemo_homewrapper">
-                        <div class="col-lg-3">
+                    <div class="lightbox templatemo_homewrapper row col-lg-12">
+                        <div class="col-lg-3"> 
                             <div class="root timeline ltr customisable-border twitter-timeline not-touch twitter-timeline-rendered var-footerless twitter-timeline-error"
                                  data-twitter-extracted-i1579099486396576445="true">
                                 <div class="timeline-header customisable-border" data-scribe="section:header">
@@ -89,7 +98,13 @@
                                     </h1>
                                 </div>
                                 <div class="stream" data-scribe="section:stream">
-                                    <div class="top_txt myblue-title"><span class="myred fa fa-bullhorn"></span>
+									<div class="top_txt myblue-title"><span class="myred fa fa-bullhorn"></span>
+                                        <a href="#programNew">NEW Tentative Program </a>
+                                    </div>
+									<div class="top_txt myblue-title"><span class="myred fa fa-bullhorn"></span>
+                                        <a href="#acceptedPapers">NEW Accepted Papers </a>
+                                    </div>
+                                    <!--div class="top_txt myblue-title"><span class="myred fa fa-bullhorn"></span>
                                         <a href="https://icde2023.ics.uci.edu/format-registration/" target="_blank" style="font-size:16px;">NEW ICDE2023 Registration: </a> <span class="myorange">Feb 24, 2023</span>.
                                     </div>
 									<div class="top_txt myblue-title"><span class="myred fa fa-bullhorn"></span>
@@ -101,13 +116,14 @@
 									<div class="top_txt myblue-title"><span class="myred fa fa-bullhorn"></span>
                                         Paper submission deadline: <span class="myorange">Jan 12, 2023</span>.
                                     </div>
-                                    <!--div class="top_txt myblue-title"><span class="myred fa fa-bullhorn"></span>
+                                    <div class="top_txt myblue-title"><span class="myred fa fa-bullhorn"></span>
                                         The paper submission deadline has been extended.
                                     </div-->
                                 </div>
                             </div>
+							
                         </div>
-                        <div class=" col-lg-6">
+                        <div class="col-lg-9">
                             <h1 class="wow fadeInDown" data-wow-delay="2000"><span class="mywhite">1st International Workshop on <br> Private, Secure, and Trustworthy IoT Data Management</span>
                             </h1>
                             <h2 class="wow fadeInDown" data-wow-delay="2000"><span class="mywhite"><span
@@ -131,8 +147,8 @@
         <div class="row">
             <div class="col-md-12 wow fadeInLeft" data-wow-delay="2000">
 
-                <span class="myblue"><h2>AIM &AMP; SCOPE</h2></span> <br>
-                <p style="font-size:16px;">The emerging IoT revolution promises to impact almost every aspect of modern society. In an IoT setting, sensors help create a fine-grained digital representation of the evolving physical world. This can be used to implement new functionalities and/or bring transformative improvements to existing systems. Central to IoT applications is the data management technology that can represent, store, transform, and query sensor data. Given the importance of IoT, the data management community has been focusing on meeting the volume, velocity, veracity, variety, and virtualization needs of IoT data. 
+                <span class="myorange"><h2>AIM &AMP; SCOPE</h2></span> <br>
+                <p>The emerging IoT revolution promises to impact almost every aspect of modern society. In an IoT setting, sensors help create a fine-grained digital representation of the evolving physical world. This can be used to implement new functionalities and/or bring transformative improvements to existing systems. Central to IoT applications is the data management technology that can represent, store, transform, and query sensor data. Given the importance of IoT, the data management community has been focusing on meeting the volume, velocity, veracity, variety, and virtualization needs of IoT data. 
 				<br><br>
 				However, the fine-grained monitoring enabled by IoT also raises significant concerns about the data collector being able to infer properties such as religious beliefs, gender, and personal habits of individuals among others, which individuals may not be comfortable sharing. The existing behavior of IoT devices and systems contradicts the increasing expectations of privacy with respect to the new legislations emerging worldwide (such as Europe’s GPDR and California’s CCPA). The success and adoption of IoT data management systems depends on integrating privacy, security, and trust protections into them to protect the user data. 
 				<br><br>
@@ -140,10 +156,10 @@
                 </p>
 				<br>
 				
-				<p style="font-size:16px;">Contributing to ASTRIDE 2023:</p>
-					<ul style="font-size:16px;">
-					  <li><h3><a href="#cfp" class="">Research Papers</h3></a></li>
-					  <li><h3><a href="#competition" class="">Undergrad/K-12 Research Competition</h3></a></li>
+				<p>Contributing to ASTRIDE 2023:</p>
+					<ul>
+					  <li><h3><a href="#cfp" class="myorange">Research Papers</h3></a></li>
+					  <li><h3><a href="#competition" class="myorange">Undergrad/K-12 Research Competition</h3></a></li>
 					</ul><br> <br>
 				
             </div>
@@ -153,139 +169,85 @@
 </section>
 <!-- end about -->
 
-
-<!-- start cfp -->
-<section id="cfp">
-    <div class="container">
-        <div class="row">
-
-            <span class="myorange"><h2>CALL FOR PAPERS</h2></span> <br>
-            <a href="assets/astride2023-cfp.txt" class="myorange" target="_blank" style="font-size:16px;"><h5>Download CFP <span class='fa fa-file'></span>
-            </h5>
-            </a><br>
-            <h3 id="topics">TOPICS OF INTEREST</h3><br>
-            <p style="font-size:16px;">Topics of interest include, but are not limited to:<br>
-            <br>
-            * Secure hardware for IoT data management<br>
-            * Model-based security systems engineering<br>
-            * Understanding dependencies among security, reliability,and safety in CPS/IoT<br>
-            * High-assurance security architectures<br>
-            * Intrusion and anomaly detection<br>
-            * Secure and privacy-preserving sensor data outsourcing<br>
-            * Privacy-by-design of IoT data management systems<br>
-            * Differentially private computing<br>
-            * Privacy-preserving machine learning and federated learning and analytics<br>
-            * Privacy regulations (GDPR, CCPA, CalOPPA) and their impact on IoT systems<br>
-            * Privacy-Preserving Data Analysis in IoT Systems<br>
-            * Inference control and access control policies<br>
-            * Authentication<br>
-            * Blockchain-based systems<br>
-            * Identity and access management<br>
-            * Security, privacy, and utility metrics<br>
-            * Application/use-cases in healthcare, environment, transportation, energy, etc.<br>
-            <br>
-			</p>
-            <hr style="width: 100%; color: black; height: 1px; background-color:black;"/>
-
-            <h3>SUBMISSION GUIDELINES</h3>
-            <p style="font-size:16px;"> We encourage researchers from industry and academia to submit original works to the submission site <a href="https://cmt3.research.microsoft.com/ASTRIDE2023"  target="_blank" class="myorange">https://cmt3.research.microsoft.com/ASTRIDE2023</a>. Submitted papers must represent original material that is not currently under review in any other conference or journal, and has not been previously published. All paper submissions should be a maximum length of six (6) printed pages in IEEE format without references (templates are available at the <a href="https://icde2023.ics.uci.edu/research-papers-track/" target="_blank" class="myorange">ICDE 2023 submission guidelines page</a>). Two (2) additional pages will be allowed in the camera ready submission to incorporate comments from the reviewers. Accepted papers will be selected for oral presentation based on peer review. Submissions are not double-blind; the submitted paper should include author names and affiliations. All accepted papers will appear in the formal Proceedings of the Conference Workshops.</p><br><br>
-
-            <a href="https://cmt3.research.microsoft.com/ASTRIDE2023" type="button" class="btn center-block btn-primary" target="_blank" style="font-size:16px; background-color:#f7941d;">Submit</a>
-            <br>
-            <div id="dates" style="font-weight: bold; font-size:16px;">
-                <h3>Paper submission deadlines:</h3>
-                <!--del>January 23, 2022 (Sunday) 5pm PST</del>
-				<span style="font-weight: bolder">March 6, 2022 (Sunday)</span-->
-                January 12, 2023 (11:59PM PST)
-
-                <br>
-                <h3>Notification:</h3>
-                February 8, 2023
-				
-                <br>
-                <h3>Camera-ready:</h3>
-                February 21, 2023
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- end cfp -->
-
-
 <!-- start team -->
 <section id="organization">
 	<div class="container">
-        <div class="row">
-		<span class="myblue"><h2>ORGANIZATION</h2></span> <br>
-		<h3>Organizers</h3><br>
-          <!-- Single Advisor-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-              <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="assets/images/xihe.png" alt="">
-                <!-- Social Info-->
-                <div class="social-info"><a href="https://cs.uwaterloo.ca/~xihe/" target="_blank" class="fa fa-link"></a></div>
-              </div>
-              <!-- Team Details-->
-              <div class="single_advisor_details_info">
-                <h4>Xi He</h4>
-                <p class="designation">Assistant Professor, University of Waterloo</p>
-              </div>
-            </div>
-          </div>
-          <!-- Single Advisor-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-              <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="assets/images/primalpappachan.png" alt="">
-                <!-- Social Info-->
-                <div class="social-info"><a href="https://primalpappachan.com/" target="_blank" class="fa fa-link"></a></div>
-              </div>
-              <!-- Team Details-->
-              <div class="single_advisor_details_info">
-                <h4>Primal Pappachan</h4>
-                <p class="designation">Postdoctoral Scholar, Pennsylvania State University</p>
-              </div>
-            </div>
-          </div>
-          <!-- Single Advisor-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-              <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="assets/images/shantanusharma.png" alt="">
-                <!-- Social Info-->
-                <div class="social-info"><a href="https://web.njit.edu/~ss797/" target="_blank" class="fa fa-link"></a></div>
-              </div>
-              <!-- Team Details-->
-              <div class="single_advisor_details_info">
-                <h4>Shantanu Sharma</h4>
-                <p class="designation">Assistant Professor, New Jersey Institute of Technology</p>
-              </div>
-            </div>
-          </div>
-          <!-- Single Advisor-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-              <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="assets/images/robertoyus.png" alt="">
-                <!-- Social Info-->
-                <div class="social-info"><a href="https://robertoyus.com/" target="_blank" class="fa fa-link"></a></div>
-              </div>
-              <!-- Team Details-->
-              <div class="single_advisor_details_info">
-                <h4>Roberto Yus</h4>
-                <p class="designation">Assistant Professor, University of Maryland, Baltimore County</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+		<span class="myblue"><h2>ORGANIZATION</h2></span>
+		
+		<div class="row wow fadeInDown" data-wow-delay="900">
+		
+			</br>
+			<div class="col-md-12 wow fadeInDown" data-wow-delay="900">
+				<h3>Organizers</h3>
+			</div>
+			
+			  <!-- Single Advisor-->
+			  <div class="col-3 col-sm-3 col-lg-3">
+				<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+				  <!-- Team Thumb-->
+				  <div class="advisor_thumb"><img src="assets/images/xihe.png" alt="">
+					<!-- Social Info-->
+					<div class="social-info"><a href="https://cs.uwaterloo.ca/~xihe/" target="_blank" class="fa fa-link"></a></div>
+				  </div>
+				  <!-- Team Details-->
+				  <div class="single_advisor_details_info">
+					<h4>Xi He</h4>
+					<p class="designation">Assistant Professor, University of Waterloo</p>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Single Advisor-->
+			  <div class="col-3 col-sm-3 col-lg-3">
+				<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+				  <!-- Team Thumb-->
+				  <div class="advisor_thumb"><img src="assets/images/primalpappachan.png" alt="">
+					<!-- Social Info-->
+					<div class="social-info"><a href="https://primalpappachan.com/" target="_blank" class="fa fa-link"></a></div>
+				  </div>
+				  <!-- Team Details-->
+				  <div class="single_advisor_details_info">
+					<h4>Primal Pappachan</h4>
+					<p class="designation">Postdoctoral Scholar, Pennsylvania State University</p>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Single Advisor-->
+			  <div class="col-3 col-sm-3 col-lg-3">
+				<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+				  <!-- Team Thumb-->
+				  <div class="advisor_thumb"><img src="assets/images/shantanusharma.png" alt="">
+					<!-- Social Info-->
+					<div class="social-info"><a href="https://web.njit.edu/~ss797/" target="_blank" class="fa fa-link"></a></div>
+				  </div>
+				  <!-- Team Details-->
+				  <div class="single_advisor_details_info">
+					<h4>Shantanu Sharma</h4>
+					<p class="designation">Assistant Professor, New Jersey Institute of Technology</p>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Single Advisor-->
+			  <div class="col-3 col-sm-3 col-lg-3">
+				<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+				  <!-- Team Thumb-->
+				  <div class="advisor_thumb"><img src="assets/images/robertoyus.png" alt="">
+					<!-- Social Info-->
+					<div class="social-info"><a href="https://robertoyus.com/" target="_blank" class="fa fa-link"></a></div>
+				  </div>
+				  <!-- Team Details-->
+				  <div class="single_advisor_details_info">
+					<h4>Roberto Yus</h4>
+					<p class="designation">Assistant Professor, University of Maryland, Baltimore County</p>
+				  </div>
+				</div>
+			  </div>
+		</div>
 		
 		<div class="row">
             <div class="col-md-12 wow fadeInDown" data-wow-delay="900">
-                <hr style="width: 100%; color: black; height: 1px; background-color:black;"/>
                 <h3>Program Comittee</h3><br>
-                <ul class="list-unstyled h4">
+                <ul class="list-unstyled">
                     <li>Amit Kumar Sikder, <span class="mygold">Georgia Institute of Technology, USA</span></li>
                     <li>Amrita Roy Chowdhury, <span class="mygold">UC San Diego, USA</span></li>
                     <li>Anna Squiccarini, <span class="mygold">Penn State University, USA</span></li>
@@ -310,9 +272,8 @@
         </div>
 		<div class="row">
             <div class="col-md-12 wow fadeInDown" data-wow-delay="900">
-                <hr style="width: 100%; color: black; height: 1px; background-color:black;"/>
                 <h3>UGRAD/K-12 Competition Review Comittee</h3><br>
-                <ul class="list-unstyled h4">
+                <ul class="list-unstyled">
 					<li>Avinash Kumar, <span class="mygold">Google, USA</span></li>
 					<li>Christian Badolato, <span class="mygold">University of Maryland, Baltimore County, USA</span></li>
                     <li>Kaustav Bhattacharjee, <span class="mygold">New Jersey Insitute of Technology, USA</span></li>
@@ -321,105 +282,34 @@
                     <li>Sabbir Ahmed Saqlain, <span class="mygold">New Jersey Institute of Technology, USA</span></li>
 					<li>Shufan Zhang, <span class="mygold">University of Waterloo, USA</span></li>
                 </ul>
-                <br><br>
             </div>
         </div>
       </div>
-
 </section>
 <!-- end team -->
 
-
-<!-- start cfp -->
-<section id="competition">
-    <div class="container">
-        <div class="row">
-
-            <span class="myblue"><h2>UNDERGRAD/K-12 RESEARCH COMPETITION</h2></span> <br>
-            <a href="assets/astride2023-competition-cfc.txt" target="_blank" style="font-size:16px;"><h5>Download Competition CFC <span class='fa fa-file'></span>
-            </h5>
-            </a><br>
-            
-            <p style="font-size:16px;">The ASTRIDE workshop is hosting a research competition for Undergrad/K-12 students with prizes to the best contributions. The Undergrad/K-12 Research Competition is a forum for undergraduate and K-12 students to showcase their research, exchange ideas, and receive feedback from senior researchers in the field. The Undergrad/K-12 Research Competition has the following goals for junior scholars:
-			<br>
-            <br>
-            * Share their research ideas and prototypes at the ASTRIDE/ICDE forum to gain visibility to their work.<br>
-            * Meet and interact with attendees at both ASTRIDE and ICDE, share ideas and gain insights about what research in the data management / privacy/security / IoT communities.<br>
-            * Receive  feedback  from senior members of industry and academia about their research and presentation.<br>
-            * Be recognized and rewarded for outstanding undergrad/K-12 student research.<br>
-			</p><br>
-
-            <h3>Eligibility and Guidelines</h3>
-			<br>
-			<ul style="font-size:16px;">
-			  <li>While a group of researchers (including students and faculty) can work together on a project submitted to the competition, the leading author of each research contribution must be a student (undergraduate or K-12).</li>
-			  <li>The competition has two categories, one for undergraduate lead research and another for K-12 lead research. Research completed while the student was an undergraduate/K-12 may be submitted to the undergraduate/K-12 category even if the student is now a first-year graduate/undergraduate student.</li>
-			  <li>Three winners will be selected in each category - undergraduate and K-12. The top three winners in each category will receive prizes of US $500, $300, and $200, respectively. Winners will be recognized during the closing session of the ASTRIDE workshop.</li>
-			</ul>
-			<br>
-			
-			<h3>Preparing your Student Research Competition Submission</h3>
-			<br>
-            <p style="font-size:16px;">A submission to the Student Research Competition should describe recently completed or ongoing student research in any of the <a href="#topics">topic areas covered by ASTRIDE 2023</a>. A group of authors who worked together on a project can submit their research with all their names on it, but the leading author must be an undergraduate/K-12 student (depending on the selected category). Faculty advisors can be part of the author list of a submission. Submissions should be original work that is neither in submission elsewhere nor already published in another conference or journal.</p>
-
-			<p style="font-size:16px;">Submit your original work to the submission site the submission site <a href="https://cmt3.research.microsoft.com/ASTRIDE2023"  target="_blank">https://cmt3.research.microsoft.com/ASTRIDE2023</a>. All paper submissions should be written in English with a maximum paper length of four (4) printed pages in IEEE format without references templates are available at the <a href="https://icde2023.ics.uci.edu/research-papers-track/" target="_blank">ICDE 2023 submission guidelines page</a>). Video submissions are encouraged along with paper but not compulsory. Accepted submissions will be included in the proceedings of the workshop.</p><br>
-
-            <a href="https://cmt3.research.microsoft.com/ASTRIDE2023" type="button" class="btn center-block btn-primary" target="_blank" style="font-size:16px; background-color:#477bc7;">Submit</a><br>
-			
-			<h3>Selection Process for Student Research Competition</h3>
-			
-			<p style="font-size:16px;">A jury of experts will evaluate the work based on the following:</p>
-			
-			<ul>
-			  <li>Overall quality.</li>
-			  <li>Novelty of the approach.</li>
-			  <li>Significance of the contribution to the data management / privacy/security / IoT community.</li>
-			  <li>Clarity of written presentation.</li>
-			  <li>Quality of visual and oral presentation (poster).</li>
-			</ul>
-			
-            <br>
-            <div id="dates" style="font-weight: bold; font-size:16px;">
-                <h3>Competition submission deadlines:</h3>
-                <del>January 25, 2023 (11:59PM PST)</del>
-                <br>January 30, 2023 (11:59PM PST)
-
-                <br>
-                <h3>Notification:</h3>
-                February 8, 2023
-				
-				<br>
-                <h3>Camera-ready:</h3>
-                February 21, 2023
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- end cfp -->
-
-
 <!-- start acceptedpapers -->
-<section id="organization" >
+<section id="acceptedPapers" >
     <div class="container">
-		<h2><span class="myblue">ACCEPTED PAPERS & KEYNOTE</span></h2>
+		<h2><span class="myorange">ACCEPTED PAPERS & KEYNOTE</span></h2>
 		<div class="row">
             <div class="col-md-12 wow fadeInDown" data-wow-delay="900">
 				
+				</br>
 				<h3>Accepted Research Papers</h3>
-				<ol class="h4">
+				<ol>
 				  <li>
-					  <span class="mygold">"Differential Privacy for Protecting Private Patterns in Data Streams"</span></br>
+					  <span id="paper">"Differential Privacy for Protecting Private Patterns in Data Streams"</span></br>
 					  He Gu (University of Oslo), Thomas Plagemann (University of Oslo), Maik Benndorf (University of Oslo), Vera Goebel (University of Oslo), Boris Koldehofe (University of Groningen)</li>
 				  <li>
-					  <span class="mygold">"Preserving Privacy in Image Database through Bit-planes Obfuscation"</span></br>
+					  <span id="paper">"Preserving Privacy in Image Database through Bit-planes Obfuscation"</span></br>
 					  Vishesh Kumar Tanwar (Missouri University of Science and Technology), Ashish Gupta (Missouri University of Science and Technology, Rolla), Sanjay Kumar Madria (Missouri University of Science & Technology), Sajal K. Das (Missouri University of Science and Technology)</li>
 				  <li>
-					  <span class="mygold">"Locally Private Streaming Data Release with Shuffling and Subsampling"</span></br>
+					  <span id="paper">"Locally Private Streaming Data Release with Shuffling and Subsampling"</span></br>
 					  Xiaoyu Li (Kyoto University), Yang Cao (Hokkaido University), Masatoshi Yoshikawa (Kyoto University)
 				  </li>
 				  <li>
-					  <span class="mygold">"Toward Compliance Implications and Security Objectives: A Qualitative Study"</span></br>
+					  <span id="paper">"Toward Compliance Implications and Security Objectives: A Qualitative Study"</span></br>
 					  Dmitry Prokhorenkov (Technical University of Munich)
 				  </li>
 				</ol> 
@@ -427,35 +317,35 @@
 				</br>
 				
 				<h3>Accepted Undergrad/K-12 Competition Papers</h3>
-				<ol class="h4">
+				<ol>
 				  <li>
-					  <span class="mygold">"How Using Blockchain for IoT Data Preserving"</span></br>
+					  <span id="paper">"How Using Blockchain for IoT Data Preserving"</span></br>
 					  Rick Lin (Morrison Academy), Verna Fu (Taipei European School)</li>
 				  <li>
-					  <span class="mygold">"The Private Key Sharing of Blockchain and Its Applications for Digital Assets"</span></br>
+					  <span id="paper">"The Private Key Sharing of Blockchain and Its Applications for Digital Assets"</span></br>
 					  Elisha Tseng (Wagor International School), Kate Tseng (Wagor International School)</li>
 				  <li>
-					  <span class="mygold">"PuPrChain: A Public-Private Cluster-Based Distributed Blockchain System"</span></br>
+					  <span id="paper">"PuPrChain: A Public-Private Cluster-Based Distributed Blockchain System"</span></br>
 					  Lalithsai Posam (Evergreen Valley High School), Faisal Nawab (University of California, Irvine)
 				  </li>
 				  <li>
-					  <span class="mygold">"Robust Occupancy Computation Based on WiFi Connectivity Events"</span></br>
+					  <span id="paper">"Robust Occupancy Computation Based on WiFi Connectivity Events"</span></br>
 					  Rithwik Kerur (University of California, Irvine), Yiming Lin (University of California, Irvine)
 				  </li>
 				  <li>
-					  <span class="mygold">"Live Space Modeling and Location Tracking For Emergency Evacuations: Application of TIPPERS Builder"</span></br>
+					  <span id="paper">"Live Space Modeling and Location Tracking For Emergency Evacuations: Application of TIPPERS Builder"</span></br>
 					  Ishan Varshney (University of California, Irvine), Nada Lahjouji (University of California, Irvine), Modeste Kenne (University of California, Irvine)
 				  </li>
 				  <li>
-					  <span class="mygold">"Application of BadNets in Spam Filters"</span></br>
+					  <span id="paper">"Application of BadNets in Spam Filters"</span></br>
 					  Swagnik Roychoudhury (New York University), Akshaj Kumar Veldanda (New York University)
 				  </li>
 				  <li>
-					  <span class="mygold">"SMILE: Smartphone Based Isolation Analysis for Older Adults"</span></br>
+					  <span id="paper">"SMILE: Smartphone Based Isolation Analysis for Older Adults"</span></br>
 					  Raghav S Mehrotra-Venkat (University High School), Siddhanth Kumar (Northwood High School), Subhash Prasad (Irvine High School), Rithwik Kerur (University of California, Irvine)
 				  </li>
 				  <li>
-					  <span class="mygold">"S3ORAM: A Demonstration with a Real Dataset"</span></br>
+					  <span id="paper">"S3ORAM: A Demonstration with a Real Dataset"</span></br>
 					  Salvatore G Spena (New Jersey Institute of Technology)
 				  </li>
 				</ol>
@@ -465,139 +355,460 @@
 				</br>
 
 			</div>
+			<div class="col-md-12 wow fadeInDown" data-wow-delay="900">
 				
 				<h3>Keynote: TBA</h3>
-				<h3>TBA</h3>
+				<p>TBA</p>
 				
+				</br>
+								
 				<h4>Abstract</h4>
 				<p>TBA</p>
+				
+				</br>
 				
 				<h4>About the Speaker</h4>
 				<img src="assets/images/portrait.png" alt="Name Lastname" height="200" style="padding-right: 15px; float: left;">
 				<p>TBA</p>
+			</div>
 		</div>
 	</div>
 </section>
 <!-- end acceptedpapers -->
 
 <!-- start program -->
-<section id="program" style="display: none">
+<div id="programNew" class="pt90 pb90">
+    <div class="container">
+        <h2><span class="myblue">PROGRAM</span></h2>
+		TBD
+        <div class="row margin-b-30" style="display: none;">
+            <div class="col-md-10 mr-auto ml-auto">
+                <div>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav tabs-schedule nav-tabs list-inline" role="tablist">
+                        <li role="presentation" class="nav-item"><a class="nav-link active show" href="#01" aria-controls="01" role="tab" data-toggle="tab" aria-selected="true">Day 1 <span>3 April 2023</span></a></li>
+                        <!--li role="presentation" class="nav-item"><a class="nav-link" href="#02" aria-controls="02" role="tab" data-toggle="tab" aria-selected="false">Day 2 <span>2 November 2016</span></a></li>
+                        <li role="presentation" class="nav-item"><a class="nav-link" href="#03" aria-controls="03" role="tab" data-toggle="tab" aria-selected="false">Day 3 <span>3 November 2016</span></a></li-->
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade active show" id="01">
+                            <div class="row margin-b-30">
+                                <div class="col-sm-3 event-info">
+                                    <span>Monday</span>
+                                    <span>9:00 AM to 10:45 AM</span>
+                                    <span class="event-hall">Basement R1</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">Introducing bootstrap4 features</a></h3>
+                                    <div class="row margin-b-20">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Nikita Miller</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Johathan Doe</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-b-30">
+                                <div class="col-sm-3 event-info">
+                                    <span>Monday</span>
+                                    <span>11:00 AM to 11:45 AM</span>
+                                    <span class="event-hall">Basement R1</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">Roadmap about bootstrap updates</a></h3>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Robert</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-b-30" style="opacity: 0.7;">
+                                <div class="col-sm-3 event-info">
+                                    <span>Monday</span>
+                                    <span>1:00 AM to 2:00 AM</span>
+                                    <span class="event-hall">Fulkari Restaurant</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">lunch</a></h3>
+                                    <p>
+                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3 event-info">
+                                    <span>Monday</span>
+                                    <span>2:00 AM to 4:30 AM</span>
+                                    <span class="event-hall">Basement R1</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">Bootstrap with AngularJs</a></h3>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Smitha Doe</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="02">
+                            <div class="row margin-b-30">
+                                <div class="col-sm-3 event-info">
+                                    <span>Monday</span>
+                                    <span>9:00 AM to 10:45 AM</span>
+                                    <span class="event-hall">Basement R1</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">Introducing bootstrap4 features</a></h3>
+                                    <div class="row margin-b-20">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Nikita Miller</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Johathan Doe</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-b-30">
+                                <div class="col-sm-3 event-info">
+                                    <span>Monday</span>
+                                    <span>11:00 AM to 11:45 AM</span>
+                                    <span class="event-hall">Basement R1</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">Roadmap about bootstrap updates</a></h3>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Robert</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-b-30" style="opacity: 0.7;">
+                                <div class="col-sm-3 event-info">
+                                    <span>Monday</span>
+                                    <span>1:00 AM to 2:00 AM</span>
+                                    <span class="event-hall">Fulkari Restaurant</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">lunch</a></h3>
+                                    <p>
+                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3 event-info">
+                                    <span>Monday</span>
+                                    <span>2:00 AM to 4:30 AM</span>
+                                    <span class="event-hall">Basement R1</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">Bootstrap with AngularJs</a></h3>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Smitha Doe</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade " id="03">
+                            <div class="row margin-b-30">
+                                <div class="col-sm-3 event-info">
+                                    <span>Wednesday</span>
+                                    <span>9:00 AM to 10:45 AM</span>
+                                    <span class="event-hall">Basement R1</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
+                                    <div class="row margin-b-20">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>John Miller</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Adam Doe</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-b-30">
+                                <div class="col-sm-3 event-info">
+                                    <span>Wednesday</span>
+                                    <span>11:00 AM to 11:45 AM</span>
+                                    <span class="event-hall">Basement R1</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">Roadmap about bootstrap updates</a></h3>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Robert</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-b-30" style="opacity: 0.7;">
+                                <div class="col-sm-3 event-info">
+                                    <span>Wednesday</span>
+                                    <span>1:00 AM to 2:00 AM</span>
+                                    <span class="event-hall">Fulkari Restaurant</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">lunch</a></h3>
+                                    <p>
+                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3 event-info">
+                                    <span>Wednesday</span>
+                                    <span>2:00 AM to 4:30 AM</span>
+                                    <span class="event-hall">Basement R1</span>
+                                </div>
+                                <div class="col-sm-9 event-detail">
+                                    <h3><a href="#">Closing ceremony</a></h3>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4>Smitha Doe</h4>
+                                            <p>
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end program -->	
+
+<!-- start cfp -->
+<section id="cfp">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 wow fadeInDown" data-wow-delay="900">
-                <span class="myorange"><h2>PROGRAM</h2></span> <br>
-                <h3>Accepted Papers</h3>
-                <ul style="font-weight: bold">
-                    <li><span class="myorange">Title</span> , authors (affiliations)
-                    </li>
-                </ul>
-				<br><br>
-            </div>
 
+            <span class="myorange"><h2>CALL FOR PAPERS</h2></span>
 			
-            <div style="font-size:min(2vw, 18px);">
-	
-				<table class="table-striped table-responsive table-bordered text-center">
-					<tbody>
-						<tr class="bg-danger">
-							<td colspan="7">
-								<span class="myred fa fa-clock-o"></span> Times are displayed in PST. Look up your local times: <a href="https://time.is/" target="_blank">https://time.is/</a>.
-							</td>
-						</tr>
-						<tr>
-							<td width="120px">Time (California PST)</td>
-							<td>Session Chairs</td>
-							<td></td>
-							<td width="160px"></td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>9:00-9:30 am</td>
-							<td>Xi, Primal, <br>Shantanu, Roberto</td>
-							<td></td>
-							<td colspan="3">
-								<p class="myblue"><span class="myred fa fa-envelope-open-o"></span> Opening and Introductions</p> <span class="myred">General Chairs:</span> Xi He, Primal Pappachan, Shantanu Sharma, &amp; Roberto Yus </span>
-							</td>
-						</tr>
-						<tr>
-							<td>9:30-10:30am</td>
-							<td>Org 1</td>
-							<td></td>
-							<td colspan="3">
-								<p class="myblue"><span class="myred fa fa-bullhorn"></span> Keynote Title 1</p> <span class="myred">Keynote Speaker1 (Org)</span> 
-							</td>
-						</tr>
-						<tr>
-							<td>10:30-11:00am</td>
-							<td colspan="5"><p><span class=" myred fa fa-coffee"></span> Coffee Break</p></td>
-						</tr>
-						<tr>
-							<td rowspan="3">11:00am-12:30pm</td>
-							<td rowspan="3">Org2</td>
-							<td rowspan="3"></td>
-							<td>Research Talk 1</td>
-							<td class="myblue">Title RT1</td>
-							<td>Authors</td>
-						</tr>
-						<tr>
-							<td>Research Talk 2</td>
-							<td class="myblue">Title RT1</td>
-							<td>Authors</td>
-						</tr>
-						<tr>
-							<td>Research Talk 3</td>
-							<td class="myblue">Title RT1</td>
-							<td>Authors</td>
-						</tr>
-						<tr>
-							<td>12:30-1:30pm</td>
-							<td colspan="5"><p><span class=" myred fa fa-cutlery"></span> Lunch Break</p></td>
-						</tr>
-						<tr>
-							<td>1:30-2:30pm</td>
-							<td>Org 3</td>
-							<td></td>
-							<td colspan="3">
-								<p class="myblue"><span class="myred fa fa-bullhorn"></span> Keynote Title 2</p> <span class="myred">Keynote Speaker2 (Org)</span> 
-							</td>
-						</tr>
-						<tr>
-							<td rowspan="3">2:30-4:00pm</td>
-							<td rowspan="3">Org4</td>
-							<td rowspan="3"></td>
-							<td>Research Talk 4</td>
-							<td class="myblue">Title RT4</td>
-							<td>Authors</td>
-						</tr>
-						<tr>
-							<td>Research Talk 5</td>
-							<td class="myblue">Title RT5</td>
-							<td>Authors</td>
-						</tr>
-						<tr>
-							<td>Research Talk 6</td>
-							<td class="myblue">Title RT6</td>
-							<td>Authors</td>
-						</tr>
-						<tr>
-							<td>4-4:30pm</td>
-							<td colspan="5"><p><span class=" myred fa fa-coffee"></span> Coffee Break</p></td>
-						</tr>
-						<tr>
-							<td>4:30-5:30pm</td>
-							<td>Xi, Primal, <br>Shantanu, Roberto</td>
-							<td></td>
-							<td colspan="3">
-								<p class="myblue"><span class="myred fa fa-envelope-open-o"></span> Panel, Closing, and Awards</p> <span class="myred">General Chairs:</span> Xi He, Primal Pappachan, Shantanu Sharma, &amp; Roberto Yus </span>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+			<div class="col-md-12 wow fadeInDown" data-wow-delay="900">
+				<a href="assets/astride2023-cfp.txt" class="myorange" target="_blank" style="font-size:16px;"><h5>Download CFP <span class='fa fa-file'></span>
+				</h5>
+				</a><br>
+				<h3 id="topics">TOPICS OF INTEREST</h3><br>
+				<p>Topics of interest include, but are not limited to:<br>
+				<br>
+				* Secure hardware for IoT data management<br>
+				* Model-based security systems engineering<br>
+				* Understanding dependencies among security, reliability,and safety in CPS/IoT<br>
+				* High-assurance security architectures<br>
+				* Intrusion and anomaly detection<br>
+				* Secure and privacy-preserving sensor data outsourcing<br>
+				* Privacy-by-design of IoT data management systems<br>
+				* Differentially private computing<br>
+				* Privacy-preserving machine learning and federated learning and analytics<br>
+				* Privacy regulations (GDPR, CCPA, CalOPPA) and their impact on IoT systems<br>
+				* Privacy-Preserving Data Analysis in IoT Systems<br>
+				* Inference control and access control policies<br>
+				* Authentication<br>
+				* Blockchain-based systems<br>
+				* Identity and access management<br>
+				* Security, privacy, and utility metrics<br>
+				* Application/use-cases in healthcare, environment, transportation, energy, etc.<br>
+				<br>
+				</p>
+
+				<h3>SUBMISSION GUIDELINES</h3>
+				<p"> We encourage researchers from industry and academia to submit original works to the submission site <a href="https://cmt3.research.microsoft.com/ASTRIDE2023"  target="_blank" class="myorange">https://cmt3.research.microsoft.com/ASTRIDE2023</a>. Submitted papers must represent original material that is not currently under review in any other conference or journal, and has not been previously published. All paper submissions should be a maximum length of six (6) printed pages in IEEE format without references (templates are available at the <a href="https://icde2023.ics.uci.edu/research-papers-track/" target="_blank" class="myorange">ICDE 2023 submission guidelines page</a>). Two (2) additional pages will be allowed in the camera ready submission to incorporate comments from the reviewers. Accepted papers will be selected for oral presentation based on peer review. Submissions are not double-blind; the submitted paper should include author names and affiliations. All accepted papers will appear in the formal Proceedings of the Conference Workshops.</p>
+				
+				<br>
+				<a href="https://cmt3.research.microsoft.com/ASTRIDE2023" type="button" class="btn center-block btn-primary" target="_blank" style="font-size:25px; background-color:#f7941d;">Submit</a>
+				<br><br>
+				
+				<div id="dates" style="font-weight: bold">
+					<h3>Paper submission deadlines:</h3>
+					<!--del>January 23, 2022 (Sunday) 5pm PST</del>
+					<span style="font-weight: bolder">March 6, 2022 (Sunday)</span-->
+					January 12, 2023 (11:59PM PST)
+
+					<br>
+					<h3>Notification:</h3>
+					February 8, 2023
+					
+					<br>
+					<h3>Camera-ready:</h3>
+					February 21, 2023
+				</div>
 			</div>
-		</div>
-	</section>
-<!-- end program -->	
+        </div>
+    </div>
+</section>
+<!-- end cfp -->
+
+<!-- start cfp -->
+<section id="competition">
+    <div class="container">
+        <div class="row">
+
+            <span class="myblue"><h2>UNDERGRAD/K-12 RESEARCH COMPETITION</h2></span>
+			</br>
+			
+			<div class="col-md-12 wow fadeInDown" data-wow-delay="900">
+			
+				<a href="assets/astride2023-competition-cfc.txt" target="_blank" style="font-size:16px;"><h5>Download Competition CFC <span class='fa fa-file'></span></h5></a>
+				
+				<br>
+				
+				<p>The ASTRIDE workshop is hosting a research competition for Undergrad/K-12 students with prizes to the best contributions. The Undergrad/K-12 Research Competition is a forum for undergraduate and K-12 students to showcase their research, exchange ideas, and receive feedback from senior researchers in the field. The Undergrad/K-12 Research Competition has the following goals for junior scholars:
+				<br>
+				<br>
+				* Share their research ideas and prototypes at the ASTRIDE/ICDE forum to gain visibility to their work.<br>
+				* Meet and interact with attendees at both ASTRIDE and ICDE, share ideas and gain insights about what research in the data management / privacy/security / IoT communities.<br>
+				* Receive  feedback  from senior members of industry and academia about their research and presentation.<br>
+				* Be recognized and rewarded for outstanding undergrad/K-12 student research.<br>
+				</p><br>
+
+				<h3>Eligibility and Guidelines</h3>
+				<br>
+				<ul>
+				  <li>While a group of researchers (including students and faculty) can work together on a project submitted to the competition, the leading author of each research contribution must be a student (undergraduate or K-12).</li>
+				  <li>The competition has two categories, one for undergraduate lead research and another for K-12 lead research. Research completed while the student was an undergraduate/K-12 may be submitted to the undergraduate/K-12 category even if the student is now a first-year graduate/undergraduate student.</li>
+				  <li>Three winners will be selected in each category - undergraduate and K-12. The top three winners in each category will receive prizes of US $500, $300, and $200, respectively. Winners will be recognized during the closing session of the ASTRIDE workshop.</li>
+				</ul>
+				<br>
+				
+				<h3>Preparing your Student Research Competition Submission</h3>
+				<br>
+				<p>A submission to the Student Research Competition should describe recently completed or ongoing student research in any of the <a href="#topics">topic areas covered by ASTRIDE 2023</a>. A group of authors who worked together on a project can submit their research with all their names on it, but the leading author must be an undergraduate/K-12 student (depending on the selected category). Faculty advisors can be part of the author list of a submission. Submissions should be original work that is neither in submission elsewhere nor already published in another conference or journal.</p>
+
+				<p>Submit your original work to the submission site the submission site <a href="https://cmt3.research.microsoft.com/ASTRIDE2023"  target="_blank">https://cmt3.research.microsoft.com/ASTRIDE2023</a>. All paper submissions should be written in English with a maximum paper length of four (4) printed pages in IEEE format without references templates are available at the <a href="https://icde2023.ics.uci.edu/research-papers-track/" target="_blank">ICDE 2023 submission guidelines page</a>). Video submissions are encouraged along with paper but not compulsory. Accepted submissions will be included in the proceedings of the workshop.</p>
+				
+				<br>
+
+				<a href="https://cmt3.research.microsoft.com/ASTRIDE2023" type="button" class="btn center-block btn-primary" target="_blank" style="font-size:25px; background-color:#477bc7;">Submit</a>
+				
+				<br><br>
+				
+				<h3>Selection Process for Student Research Competition</h3>
+				
+				<p>A jury of experts will evaluate the work based on the following:</p>
+				
+				<ul>
+				  <li>Overall quality.</li>
+				  <li>Novelty of the approach.</li>
+				  <li>Significance of the contribution to the data management / privacy/security / IoT community.</li>
+				  <li>Clarity of written presentation.</li>
+				  <li>Quality of visual and oral presentation (poster).</li>
+				</ul>
+				
+				<br>
+				<div id="dates" style="font-weight: bold">
+					<h3>Competition submission deadlines:</h3>
+					<del>January 25, 2023 (11:59PM PST)</del>
+					<br>January 30, 2023 (11:59PM PST)
+
+					<br><br>
+					<h3>Notification:</h3>
+					February 8, 2023
+					
+					<br><br>
+					<h3>Camera-ready:</h3>
+					February 21, 2023
+				</div>
+			</div>
+
+        </div>
+    </div>
+</section>
+<!-- end cfp -->
+
+
+
 	
 
 
