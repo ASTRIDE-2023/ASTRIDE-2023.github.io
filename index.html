@@ -30,8 +30,8 @@
 <body>
 
 <!-- start navbar -->
-<div>
-	<div class="row">
+<div class="col-md-12 sticky-top" id="myNavbar">
+	<div class="text-center">
 		<img src="assets/images/banner.png" class="img-fluid">
 	</div>
 	<nav class="navbar navbar-expand-lg">
@@ -39,25 +39,25 @@
 				<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+				<div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
 					<div class="navbar-nav">
-						<a href="#aims" class="nav-item nav-link myblue" style="font-weight: bold;">Aim &AMP; Scope</a>
-						<a href="#organization" class="nav-item nav-link myblue" style="font-weight: bold;">Organization</a>
+						<a href="#about" class="nav-item nav-link">About</a>
+						<a href="#organization" class="nav-item nav-link">Organization</a>
 						<div class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle myblue" data-bs-toggle="dropdown" style="font-weight: bold;">Program</a>
+							<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Program</a>
 							<div class="dropdown-menu">
-								<a href="#acceptedPapers" class="dropdown-item myblue" style="font-weight: bold;">Accepted Papers</a>
-								<a href="#programNew" class="dropdown-item myblue" style="font-weight: bold;">Preliminary Program</a>
+								<a href="#acceptedPapers" class="dropdown-item">Accepted Papers</a>
+								<a href="#programNew" class="dropdown-item">Preliminary Program</a>
 							</div>
 						</div>
 						<div class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle myblue" data-bs-toggle="dropdown" style="font-weight: bold;">Call For Contributions</a>
+							<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Call For Contributions</a>
 							<div class="dropdown-menu">
-								<a href="#cfp" class="dropdown-item myblue" style="font-weight: bold;">Call For Papers</a>
-								<a href="#competition" class="dropdown-item myblue" style="font-weight: bold;">UGrad/K-12 Competition</a>
+								<a href="#cfp" class="dropdown-item">Call For Papers</a>
+								<a href="#competition" class="dropdown-item">UGrad/K-12 Competition</a>
 							</div>
 						</div>
-						<a href="https://icde2023.ics.uci.edu/" target="_blank" class="nav-item nav-link myblue" style="font-weight: bold;">Venue</a>
+						<a href="https://icde2023.ics.uci.edu/" target="_blank" class="nav-item nav-link">Venue</a>
 					</div>
 				</div>
         </div>
@@ -67,7 +67,7 @@
 
 
 <!-- start home -->
-<section id="home" class="text-center">
+<section id="home" class="text-center" style="display:none">
 
     <div class="templatemo_headerimage">
         <div class="flexslider">
@@ -140,14 +140,14 @@
 
 
 <!-- start about -->
-<section id="aims">
+<section id="about" class="blueSection">
     <div class="container">
 
         <br>
         <div class="row">
             <div class="col-md-12 wow fadeInLeft" data-wow-delay="2000">
 
-                <span class="myorange"><h2>AIM &AMP; SCOPE</h2></span> <br>
+                <h2>About</h2><br>
                 <p>The emerging IoT revolution promises to impact almost every aspect of modern society. In an IoT setting, sensors help create a fine-grained digital representation of the evolving physical world. This can be used to implement new functionalities and/or bring transformative improvements to existing systems. Central to IoT applications is the data management technology that can represent, store, transform, and query sensor data. Given the importance of IoT, the data management community has been focusing on meeting the volume, velocity, veracity, variety, and virtualization needs of IoT data. 
 				<br><br>
 				However, the fine-grained monitoring enabled by IoT also raises significant concerns about the data collector being able to infer properties such as religious beliefs, gender, and personal habits of individuals among others, which individuals may not be comfortable sharing. The existing behavior of IoT devices and systems contradicts the increasing expectations of privacy with respect to the new legislations emerging worldwide (such as Europe’s GPDR and California’s CCPA). The success and adoption of IoT data management systems depends on integrating privacy, security, and trust protections into them to protect the user data. 
@@ -170,29 +170,26 @@
 <!-- end about -->
 
 <!-- start team -->
-<section id="organization">
+<section id="organization" class="graySection">
 	<div class="container">
         
-		<span class="myblue"><h2>ORGANIZATION</h2></span>
+		<h2>Organization</h2>
 		
 		<div class="row wow fadeInDown" data-wow-delay="900">
-		
-			</br>
-			<div class="col-md-12 wow fadeInDown" data-wow-delay="900">
-				<h3>Organizers</h3>
-			</div>
 			
+			<h3>Organizers</h3>
+
 			  <!-- Single Advisor-->
 			  <div class="col-3 col-sm-3 col-lg-3">
 				<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 				  <!-- Team Thumb-->
-				  <div class="advisor_thumb"><img src="assets/images/xihe.png" alt="">
+				  <div class="advisor_thumb"><img src="assets/images/xihe.png" alt="" class="img-fluid">
 					<!-- Social Info-->
 					<div class="social-info"><a href="https://cs.uwaterloo.ca/~xihe/" target="_blank" class="fa fa-link"></a></div>
 				  </div>
 				  <!-- Team Details-->
 				  <div class="single_advisor_details_info">
-					<h4>Xi He</h4>
+					<h5>Xi He</h5>
 					<p class="designation">Assistant Professor, University of Waterloo</p>
 				  </div>
 				</div>
@@ -201,13 +198,13 @@
 			  <div class="col-3 col-sm-3 col-lg-3">
 				<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
 				  <!-- Team Thumb-->
-				  <div class="advisor_thumb"><img src="assets/images/primalpappachan.png" alt="">
+				  <div class="advisor_thumb"><img src="assets/images/primalpappachan.png" alt="" class="img-fluid">
 					<!-- Social Info-->
 					<div class="social-info"><a href="https://primalpappachan.com/" target="_blank" class="fa fa-link"></a></div>
 				  </div>
 				  <!-- Team Details-->
 				  <div class="single_advisor_details_info">
-					<h4>Primal Pappachan</h4>
+					<h5>Primal Pappachan</h5>
 					<p class="designation">Postdoctoral Scholar, Pennsylvania State University</p>
 				  </div>
 				</div>
@@ -216,13 +213,13 @@
 			  <div class="col-3 col-sm-3 col-lg-3">
 				<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
 				  <!-- Team Thumb-->
-				  <div class="advisor_thumb"><img src="assets/images/shantanusharma.png" alt="">
+				  <div class="advisor_thumb"><img src="assets/images/shantanusharma.png" alt="" class="img-fluid">
 					<!-- Social Info-->
 					<div class="social-info"><a href="https://web.njit.edu/~ss797/" target="_blank" class="fa fa-link"></a></div>
 				  </div>
 				  <!-- Team Details-->
 				  <div class="single_advisor_details_info">
-					<h4>Shantanu Sharma</h4>
+					<h5>Shantanu Sharma</h5>
 					<p class="designation">Assistant Professor, New Jersey Institute of Technology</p>
 				  </div>
 				</div>
@@ -231,13 +228,13 @@
 			  <div class="col-3 col-sm-3 col-lg-3">
 				<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 				  <!-- Team Thumb-->
-				  <div class="advisor_thumb"><img src="assets/images/robertoyus.png" alt="">
+				  <div class="advisor_thumb"><img src="assets/images/robertoyus.png" alt="" class="img-fluid">
 					<!-- Social Info-->
 					<div class="social-info"><a href="https://robertoyus.com/" target="_blank" class="fa fa-link"></a></div>
 				  </div>
 				  <!-- Team Details-->
 				  <div class="single_advisor_details_info">
-					<h4>Roberto Yus</h4>
+					<h5>Roberto Yus</h5>
 					<p class="designation">Assistant Professor, University of Maryland, Baltimore County</p>
 				  </div>
 				</div>
@@ -272,7 +269,7 @@
         </div>
 		<div class="row">
             <div class="col-md-12 wow fadeInDown" data-wow-delay="900">
-                <h3>UGRAD/K-12 Competition Review Comittee</h3><br>
+                <h3>Ugrad/K-12 Competition Review Comittee</h3><br>
                 <ul class="list-unstyled">
 					<li>Avinash Kumar, <span class="mygold">Google, USA</span></li>
 					<li>Christian Badolato, <span class="mygold">University of Maryland, Baltimore County, USA</span></li>
@@ -289,9 +286,9 @@
 <!-- end team -->
 
 <!-- start acceptedpapers -->
-<section id="acceptedPapers" >
+<section id="acceptedPapers" class="blueSection">
     <div class="container">
-		<h2><span class="myorange">ACCEPTED PAPERS & KEYNOTE</span></h2>
+		<h2>Accepted Papers & Keynote</h2>
 		<div class="row">
             <div class="col-md-12 wow fadeInDown" data-wow-delay="900">
 				
@@ -357,7 +354,7 @@
 			</div>
 			<div class="col-md-12 wow fadeInDown" data-wow-delay="900">
 				
-				<h3>Keynote: TBA</h3>
+				<h3>Keynote</h3>
 				<p>TBA</p>
 				
 				</br>
@@ -377,9 +374,9 @@
 <!-- end acceptedpapers -->
 
 <!-- start program -->
-<div id="programNew" class="pt90 pb90">
+<div id="programNew" class="graySection">
     <div class="container">
-        <h2><span class="myblue">PROGRAM</span></h2>
+        <h2><span class="myblue">Program</span></h2>
 		<p>All times are PST</p>
         <div class="row margin-b-30">
             <div class="col-md-10 mr-auto ml-auto">
@@ -402,7 +399,7 @@
                                     <span class="event-hall">LOC TBA</span>
                                 </div>
                                 <div class="col-sm-9 event-detail">
-                                    <h3>Workshop Opening</h3>
+                                    <h2>Workshop Opening</h2>
                                     <div class="row margin-b-20">
                                         <div class="col-sm-2">
                                             <img src="assets/images/xihe.png" alt="" class="img-fluid">
@@ -431,7 +428,7 @@
                                     <span class="event-hall">LOC TBA</span>
                                 </div>
                                 <div class="col-sm-9 event-detail">
-                                    <h3>Keynote</h3>
+                                    <h2>Keynote</h2>
                                     <div class="row">
                                         <div class="col-sm-2">
                                             <img src="assets/images/portrait.png" alt="" class="img-fluid">
@@ -451,7 +448,7 @@
                                     <span>12:30 AM to 2:00 PM</span>
                                 </div>
                                 <div class="col-sm-9 event-detail">
-                                    <h3>Lunch</h3>
+                                    <h2>Lunch</h2>
                                 </div>
                             </div>
                             <div class="row">
@@ -461,7 +458,7 @@
                                     <span class="event-hall">LOC TBA</span>
                                 </div>
                                 <div class="col-sm-9 event-detail">
-                                    <h3>First Research Session</h3>
+                                    <h2>First Research Session</h2>
                                     <div class="row">
                                         <div class="col-sm-2">
                                             <img src="assets/images/portrait.png" alt="" class="img-fluid">
@@ -536,7 +533,7 @@
                                     <span>3:30 PM to 4:00 PM</span>
                                 </div>
                                 <div class="col-sm-9 event-detail">
-                                    <h3>Coffee Break</h3>
+                                    <h2>Coffee Break</h2>
                                 </div>
                             </div>
 							<div class="row">
@@ -546,7 +543,7 @@
                                     <span class="event-hall">LOC TBA</span>
                                 </div>
                                 <div class="col-sm-9 event-detail">
-                                    <h3>Second Research Session</h3>
+                                    <h2>Second Research Session</h2>
                                     <div class="row">
                                         <div class="col-sm-2">
                                             <img src="assets/images/portrait.png" alt="" class="img-fluid">
@@ -622,7 +619,7 @@
                                     <span class="event-hall">LOC TBA</span>
                                 </div>
                                 <div class="col-sm-9 event-detail">
-                                    <h3>Workshop Closing</h3>
+                                    <h2>Workshop Closing</h2>
                                     <div class="row margin-b-20">
                                         <div class="col-sm-2">
                                             <img src="assets/images/xihe.png" alt="" class="img-fluid">
@@ -654,17 +651,17 @@
 <!-- end program -->	
 
 <!-- start cfp -->
-<section id="cfp">
+<section id="cfp" class="blueSection">
     <div class="container">
         <div class="row">
 
-            <span class="myorange"><h2>CALL FOR PAPERS</h2></span>
+            <h2>Call For Papers</h2>
 			
 			<div class="col-md-12 wow fadeInDown" data-wow-delay="900">
 				<a href="assets/astride2023-cfp.txt" class="myorange" target="_blank" style="font-size:16px;"><h5>Download CFP <span class='fa fa-file'></span>
 				</h5>
 				</a><br>
-				<h3 id="topics">TOPICS OF INTEREST</h3><br>
+				<h3 id="topics">Topics of Interest</h3><br>
 				<p>Topics of interest include, but are not limited to:<br>
 				<br>
 				* Secure hardware for IoT data management<br>
@@ -687,7 +684,7 @@
 				<br>
 				</p>
 
-				<h3>SUBMISSION GUIDELINES</h3>
+				<h3>Submission Guidelines</h3>
 				<p"> We encourage researchers from industry and academia to submit original works to the submission site <a href="https://cmt3.research.microsoft.com/ASTRIDE2023"  target="_blank" class="myorange">https://cmt3.research.microsoft.com/ASTRIDE2023</a>. Submitted papers must represent original material that is not currently under review in any other conference or journal, and has not been previously published. All paper submissions should be a maximum length of six (6) printed pages in IEEE format without references (templates are available at the <a href="https://icde2023.ics.uci.edu/research-papers-track/" target="_blank" class="myorange">ICDE 2023 submission guidelines page</a>). Two (2) additional pages will be allowed in the camera ready submission to incorporate comments from the reviewers. Accepted papers will be selected for oral presentation based on peer review. Submissions are not double-blind; the submitted paper should include author names and affiliations. All accepted papers will appear in the formal Proceedings of the Conference Workshops.</p>
 				
 				<br>
@@ -714,12 +711,12 @@
 </section>
 <!-- end cfp -->
 
-<!-- start cfp -->
-<section id="competition">
+<!-- start competition -->
+<section id="competition" class="orangeSection">
     <div class="container">
         <div class="row">
 
-            <span class="myblue"><h2>UNDERGRAD/K-12 RESEARCH COMPETITION</h2></span>
+            <h2>Undergrad/K-12 Research Competition</h2>
 			</br>
 			
 			<div class="col-md-12 wow fadeInDown" data-wow-delay="900">
@@ -767,7 +764,7 @@
 				  <li>Novelty of the approach.</li>
 				  <li>Significance of the contribution to the data management / privacy/security / IoT community.</li>
 				  <li>Clarity of written presentation.</li>
-				  <li>Quality of visual and oral presentation (poster).</li>
+				  <li>Quality of visual and oral presentation.</li>
 				</ul>
 				
 				<br>
@@ -789,7 +786,7 @@
         </div>
     </div>
 </section>
-<!-- end cfp -->
+<!-- end competition -->
 
 
 <!-- start contact -->

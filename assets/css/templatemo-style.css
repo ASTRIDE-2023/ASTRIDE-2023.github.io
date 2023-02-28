@@ -1,8 +1,3 @@
-/*
-	Crystal Template 
-	http://www.templatemo.com/tm-437-crystal
-*/
-
 body {
     background: #FFFFFF;
     color: #555555;
@@ -11,47 +6,14 @@ body {
     position: relative;
 }
 
-.blue {
-    color: #06C;
-}
-
-.green {
-    color: #090;
-}
-
-.orange {
-    color: #C60;
-}
-
-.white {
-    color: #FFF;
-}
 
 .myblue {
     color: #477bc7;
 }
 
-.myblue-title {
-    color: #00377c;
-    font-weight: bold;
-}
-
-.myred-title {
-    color: #a61b28;
-    font-weight: bold;
-}
 
 .myred {
     color: #a61b28;
-}
-
-.authors {
-    color: #000000;
-    font-size: smaller;
-}
-
-.papers-list {
-    text-decoration-line: blink;
 }
 
 .mygold {
@@ -61,25 +23,6 @@ body {
 .myorange {
     color: #ffb703;
 }
-
-.mywhite {
-    color: #ffffff;
-}
-
-.mypurple{
-    color: #9b51e0;
-}
-
-.mypurple-title {
-    color: #9b51e0;
-    font-weight: bold;
-}
-
-.stretch {
-    text-decoration: line-through;
-}
-
-
 
 
 /* start home */
@@ -275,479 +218,156 @@ h1 {
     -ms-transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85);
     transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85);
 }
-
 /* end simpletextrotator */
 
-/* start about */
-#about {
-    min-height: 300px;
-    padding: 80px 0 80px 0;
+
+/*start myNavbar */
+#myNavbar {
+	background: #477bc7;
 }
 
-#about h2,
-#about h3 {
-    font-weight: bold;
+#myNavbar img {
+	max-width: 1250px;
+	width:100%;
 }
 
-#about .col-md-7 h3 {
-    padding: 12px 0 0 0;
-}
-
-#about .col-md-7 h2 {
-    color: #E1BB60;
-    padding: 10px 0 10px 0;
-    margin: 10px 0 32px 0;
-}
-
-#about .col-md-5 .col-md-6 {
-    padding: 4px;
-}
-
-#about .col-md-5 h3 {
-    padding: 10px 0 10px 0;
-}
-
-#about .col-md-5 img {
-    width: 200px;
-    height: 100px;
-}
-
-#about p {
-    font-weight: 400;
-    text-align: justify;
-}
-
-/* end about */
-
-/*start aims */
-#aims {
-    min-height: 300px;
-    padding: 80px 0 80px 0;
-    background: #477bc7;
-    color: #FFFFFF;
-}
-
-#aims h2,
-#aims h3
-#aims h4 {
-    font-weight: bold;
-}
-
-#aims .col-md-7 h3 {
-    padding: 12px 0 0 0;
-}
-
-#aims .col-md-7 h2 {
-    color: #E1BB60;
-    padding: 10px 0 10px 0;
-    margin: 10px 0 32px 0;
-}
-
-#aims .col-md-5 .col-md-6 {
-    padding: 4px;
-}
-
-#aims .col-md-5 h3 {
-    padding: 10px 0 10px 0;
-}
-
-#aims .col-md-5 img {
-    width: 200px;
-    height: 100px;
-}
-
-#aims p
-{
-    font-weight: 400;
-    text-align: justify;
-}
-
-/* end aims */
-
-
-/*start acceptedPapers */
-#acceptedPapers {
-    min-height: 300px;
-    padding: 80px 0 80px 0;
-    background: #477bc7;
-    color: #FFFFFF;
-}
-
-#acceptedPapers h2,
-#acceptedPapers h3
-#acceptedPapers h4 {
-    font-weight: bold;
-}
-
-#acceptedPapers .col-md-7 h3 {
-    padding: 12px 0 0 0;
-}
-
-#acceptedPapers .col-md-7 h2 {
-    color: #E1BB60;
-    padding: 10px 0 10px 0;
-    margin: 10px 0 32px 0;
-}
-
-#acceptedPapers .col-md-5 .col-md-6 {
-    padding: 4px;
-}
-
-#acceptedPapers .col-md-5 h3 {
-    padding: 10px 0 10px 0;
-}
-
-#acceptedPapers .col-md-5 img {
-    width: 200px;
-    height: 100px;
-}
-
-#acceptedPapers p
-{
-    font-weight: 400;
-    text-align: justify;
-}
-
-#paper {
+#myNavbar a {
 	font-weight: bold;
+	color: #ffffff;
+}
+
+#myNavbar .dropdown-menu { background-color: #477bc7; }
+/*end myNavbar */
+
+/*start blue section */
+.blueSection {
+    min-height: 300px;
+    padding: 50px 0 50px 0;
+    background: #477bc7;
+    color: #FFFFFF;
+}
+
+.blueSection h2 {
+    font-weight: bold;
 	color: #ffb703;
 }
 
-/* end acceptedPapers */
-
-
-/*start organization */
-#organization {
-    min-height: 300px;
-    padding: 80px 0 80px 0;
-}
-
-#organization h2,
-#organization h3
-#organization h4 {
+.blueSection h3
+.blueSection h4 {
     font-weight: bold;
 }
 
-#organization p
-{
-    font-weight: 400;
-    text-align: justify;
-}
-/* end organization */
-
-
-/*start cfp */
-#cfp {
-    min-height: 300px;
-    padding: 80px 0 80px 0;
-    background: #477bc7;
-    color: #FFFFFF;
-}
-
-#cfp h2,
-#cfp h3
-#cfp h4 {
-    font-weight: bold;
-}
-
-#cfp .col-md-7 h3 {
+.blueSection .col-md-7 h3 {
     padding: 12px 0 0 0;
 }
 
-#cfp .col-md-7 h2 {
+.blueSection .col-md-7 h2 {
     color: #E1BB60;
     padding: 10px 0 10px 0;
     margin: 10px 0 32px 0;
 }
 
-#cfp .col-md-5 .col-md-6 {
+.blueSection .col-md-5 .col-md-6 {
     padding: 4px;
 }
 
-#cfp .col-md-5 h3 {
+.blueSection .col-md-5 h3 {
     padding: 10px 0 10px 0;
 }
 
-#cfp .col-md-5 img {
+.blueSection .col-md-5 img {
     width: 200px;
     height: 100px;
 }
 
-#cfp p
+.blueSection p
 {
     font-weight: 400;
     text-align: justify;
 }
+/*end blue section */
 
-/* end cfp */
-
-/*start competition */
-#competition {
+/*start orange section */
+.orangeSection {
     min-height: 300px;
-    padding: 80px 0 80px 0;
+    padding: 50px 0 50px 0;
     background: #f7941d;
     color: #000000;
 }
 
-#competition h2,
-#competition h3
-#competition h4 {
+.orangeSection h2 {
+    font-weight: bold;
+	color: #477bc7;
+}
+
+.orangeSection h3
+.orangeSection h4 {
     font-weight: bold;
 }
 
-#competition .col-md-7 h3 {
+.orangeSection .col-md-7 h3 {
     padding: 12px 0 0 0;
 }
 
-#competition .col-md-7 h2 {
+.orangeSection .col-md-7 h2 {
     color: #E1BB60;
     padding: 10px 0 10px 0;
     margin: 10px 0 32px 0;
 }
 
-#competition .col-md-5 .col-md-6 {
+.orangeSection .col-md-5 .col-md-6 {
     padding: 4px;
 }
 
-#competition .col-md-5 h3 {
+.orangeSection .col-md-5 h3 {
     padding: 10px 0 10px 0;
 }
 
-#competition .col-md-5 img {
+.orangeSection .col-md-5 img {
     width: 200px;
     height: 100px;
 }
 
-#competition p
+.orangeSection p
 {
     font-weight: 400;
     text-align: justify;
 }
+/*end orange section */
 
-/* end competition */
-
-/*start keynote */
-#keynote {
+/*start gray section */
+.graySection {
     min-height: 300px;
-    padding: 80px 0 80px 0;
-    background: #404040;
-    color: #FFFFFF;
+    padding: 50px 0 50px 0;
 }
 
-#keynote h2,
-#keynote h3
-#keynote h4 {
+.graySection h2 {
+    font-weight: bold;
+	color: #477bc7;
+}
+
+.graySection h3
+.graySection h4 {
     font-weight: bold;
 }
 
-#keynote .col-md-7 h3 {
-    padding: 12px 0 0 0;
-}
-
-#keynote .col-md-7 h2 {
-    color: #E1BB60;
-    padding: 10px 0 10px 0;
-    margin: 10px 0 32px 0;
-}
-
-#keynote .col-md-5 .col-md-6 {
-    padding: 4px;
-}
-
-#keynote .col-md-5 h3 {
-    padding: 10px 0 10px 0;
-}
-
-#keynote .col-md-5 img {
-    width: 200px;
-    height: 100px;
-}
-
-#keynote p
+.graySection p
 {
     font-weight: 400;
     text-align: justify;
 }
+/*end gray section */
 
-/* end keynote */
 
-/* start team */
-#team {
-    background: #00377c;
-    color: #FFFFFF;
-    min-height: 300px;
-    padding: 80px 0 80px 0;
+
+/*start acceptedPapers */
+#paper {
+	font-weight: bold;
+	color: #ffb703;
 }
+/* end acceptedPapers */
 
 
-#team h3 {
-    font-weight: bold;
-    letter-spacing: 1px !important;
-    padding-bottom: 30px;
-}
-
-#team .team_thumb {
-    overflow: hidden;
-    position: relative;
-    margin: 30px 0 0 0;
-}
-
-#team .team_thumb img {
-    width: 100%;
-    height: auto;
-}
-
-h5 {
-    margin: 0;
-}
-
-#team .team_thumb .team_overlay {
-    background: #FFFFFF;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    opacity: 0;
-    position: absolute;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-#team .team_thumb:hover .team_overlay {
-    opacity: 0.8;
-}
-
-#team .team_description {
-    background: #303030;
-    text-align: center;
-    padding: 10px;
-}
-
-#team .team_description h5 {
-    color: #E1BB60;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-#team p {
-    font-weight: 400;
-}
-
-/* end team */
-
-#program {
-    padding: 80px 0 80px 0;
-}
-
-#program h2,
-#program h3 {
-    font-weight: bold;
-}
-
-@media all and (max-width: 768px){
-
-    #program .rotate{
-        display: none;
-    }
-    #program .time{
-        display: none;
-    }
-}
-
-/* start social icon */
-.social_icon {
-    padding: 0;
-}
-
-.social_icon li {
-    display: inline-block;
-    position: relative;
-}
-
-ul {
-    margin-bottom: 0;
-}
-
-.social_icon li a {
-    background: #303030;
-    border-radius: 50%;
-    cursor: pointer;
-    color: #FFFFFF;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    text-decoration: none;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-
-.social_icon li a:hover {
-    background: #00377c;
-    color: #FFFFFF;
-}
-
-footer .social_icon {
-    margin-top: 10px;
-}
-
-/* end social icon */
-
-/* start service */
-#service {
-    min-height: 300px;
-    padding: 80px 0 60px 0;
-}
-
-#service h3 {
-    color: #333;
-    font-weight: bold;
-    letter-spacing: 1px !important;
-    padding-bottom: 30px;
-}
-
-#service .media {
-    padding: 40px 0 10px 0;
-}
-
-#service .media .fa {
-    background: #E1BB60;
-    border-radius: 50%;
-    color: #FFFFFF;
-    font-size: 24px;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    margin: 0 10px 0 0;
-    padding-right: 0;
-}
-
-#service .media .media-heading {
-    color: #E1BB60;
-    font-weight: bold;
-    padding: 0 0 10px 0;
-    margin: 0 0 10px 0;
-}
-
-#service {
-    font-weight: 400;
-}
-
-/* end service */
 
 /* start newsletter */
 #newsletter {
@@ -811,8 +431,6 @@ footer .social_icon {
 /* end newsletter */
 
 
-
-
 @media only screen and (max-width: 1199px) {
     h1 {
         font-size: 30px;
@@ -843,18 +461,6 @@ footer .social_icon {
         height: 40px;
         padding-top: 8px;
     }
-
-    #team .team_thumb .team_overlay {
-        background: #FFFFFF;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        bottom: 0;
-        opacity: 0;
-        position: absolute;
-        -webkit-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out;
-    }
 }
 
 /* end 768 media quires */
@@ -876,23 +482,6 @@ footer .social_icon {
     }
 }
 
-/* start 360 media quires */
-@media only screen and ( max-width: 360px ) {
-    #team .team_thumb .team_overlay {
-        background: #FFFFFF;
-        width: 100%;
-        height: 100%;
-        line-height: 220px;
-        top: 0;
-        bottom: 0;
-        opacity: 0;
-        position: absolute;
-        -webkit-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out;
-    }
-}
-
-/* end 360 media quires */
 
 .lightbox {
     background: url(../images/bg_alpha30.png);
