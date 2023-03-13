@@ -692,3 +692,8 @@ programNew
     font-size: 14px;
     color: #666;
 }
+
+#programNew .event-detail p {
+    margin-top: 4px;
+	font-size: 14px;
+}
